@@ -1,0 +1,864 @@
+6.9565 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13328f668>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138e762e8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9566 	EXP 	window1: recordFrameIntervals = False
+7.1231 	EXP 	window1: recordFrameIntervals = True
+7.3070 	EXP 	window1: recordFrameIntervals = False
+7.3306 	EXP 	Created blackScreen = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=0, name='blackScreen', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.4163 	EXP 	Created doPracticePrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='doPracticePrompt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.4254 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.4622 	EXP 	Created practInstr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practInstr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.4716 	EXP 	Created BlackBlank = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='BlackBlank', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.5063 	EXP 	Sound sound_stim_pract set volume 1.000
+7.5234 	EXP 	Sound noise_pract set volume 1.000
+7.5244 	EXP 	Created blackRectP = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='blackRectP', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.5289 	EXP 	Created PracticeRespOptions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='PracticeRespOptions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.5428 	EXP 	Created blackRectCorr = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='blackRectCorr', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.5468 	EXP 	Created practiceCorr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practiceCorr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Correct!', units='height', win=Window(...), wrapWidth=1)
+7.5479 	EXP 	Created blackRectIncorr = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='blackRectIncorr', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.5501 	EXP 	Created text_incorrect = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_incorrect', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.5511 	EXP 	Created rectNoAns = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='rectNoAns', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.5575 	EXP 	Created practNoAnsText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practNoAnsText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.5583 	EXP 	Created blackScreen2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='blackScreen2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.5839 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+7.6103 	EXP 	Sound sound_stim set volume 1.000
+7.6276 	EXP 	Sound noise_stim set volume 1.000
+7.6288 	EXP 	Created BlackRectStim = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='BlackRectStim', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.6312 	EXP 	Created StimRespOpts = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StimRespOpts', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.6407 	EXP 	Created BlackBlank = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='BlackBlank', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.6628 	EXP 	blackScreen: autoDraw = True
+7.6628 	EXP 	doPracticePrompt: autoDraw = True
+8.9913 	DATA 	Keypress: y
+9.0049 	EXP 	blackScreen: autoDraw = False
+9.0049 	EXP 	doPracticePrompt: autoDraw = False
+9.0049 	EXP 	polygon: autoDraw = True
+9.0049 	EXP 	practInstr: autoDraw = True
+10.5710 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+10.5712 	EXP 	New trial (rep=0, index=0): None
+10.5714 	EXP 	Created sequence: random, trialTypes=1, nReps=8, seed=None
+10.5717 	EXP 	New trial (rep=0, index=0): None
+10.5737 	DATA 	Keypress: space
+10.5881 	EXP 	polygon: autoDraw = False
+10.5881 	EXP 	practInstr: autoDraw = False
+10.5881 	EXP 	BlackBlank: autoDraw = True
+11.3003 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+11.3208 	EXP 	BlackBlank: autoDraw = False
+11.3208 	EXP 	movie_stim_pract: movie = 'visual/degraded.mp4'
+11.3208 	EXP 	movie_stim_pract: autoLog = True
+11.3208 	EXP 	movie_stim_pract: autoDraw = True
+11.8398 	EXP 	Sound sound_stim_pract started
+11.8398 	EXP 	Sound noise_pract started
+12.3738 	EXP 	Sound sound_stim_pract reached end of file
+12.4063 	EXP 	Sound noise_pract reached end of file
+12.4401 	EXP 	movie_stim_pract: autoDraw = False
+12.4401 	EXP 	movie_stim_pract: autoDraw = False
+12.4401 	EXP 	PracticeRespOptions: text = 'B\t\t\tD\t\t\tG\t\t\tTH'
+12.4401 	EXP 	blackRectP: autoDraw = True
+12.4401 	EXP 	PracticeRespOptions: autoDraw = True
+13.2233 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+13.2235 	EXP 	New trial (rep=0, index=0): None
+13.2263 	DATA 	Keypress: 1
+13.2386 	EXP 	blackRectP: autoDraw = False
+13.2386 	EXP 	PracticeRespOptions: autoDraw = False
+13.2386 	EXP 	blackRectCorr: autoDraw = True
+13.2386 	EXP 	practiceCorr: autoDraw = True
+14.2380 	EXP 	practiceCorr: autoDraw = False
+14.7223 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+14.7225 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+14.7229 	EXP 	New trial (rep=1, index=0): None
+14.7378 	EXP 	blackRectCorr: autoDraw = False
+14.7378 	EXP 	blackRectCorr: autoDraw = False
+14.7378 	EXP 	practiceCorr: autoDraw = False
+14.7378 	EXP 	BlackBlank: autoDraw = True
+15.3044 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/guy.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+15.3225 	EXP 	BlackBlank: autoDraw = False
+15.3225 	EXP 	BlackBlank: autoDraw = False
+15.3225 	EXP 	movie_stim_pract: movie = 'visual/guy.mp4'
+15.3225 	EXP 	movie_stim_pract: autoLog = True
+15.3225 	EXP 	movie_stim_pract: autoDraw = True
+15.8551 	EXP 	Sound sound_stim_pract started
+15.8551 	EXP 	Sound noise_pract started
+16.3888 	EXP 	Sound sound_stim_pract reached end of file
+16.4093 	EXP 	Sound noise_pract stopped
+16.4253 	EXP 	movie_stim_pract: autoDraw = False
+16.4253 	EXP 	movie_stim_pract: autoDraw = False
+16.4253 	EXP 	PracticeRespOptions: text = 'G\t\t\tB\t\t\tD\t\t\tT'
+16.4253 	EXP 	blackRectP: autoDraw = True
+16.4253 	EXP 	PracticeRespOptions: autoDraw = True
+17.0071 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+17.0073 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+17.0075 	EXP 	New trial (rep=0, index=0): None
+17.0143 	DATA 	Keypress: 1
+17.0259 	EXP 	blackRectP: autoDraw = False
+17.0259 	EXP 	PracticeRespOptions: autoDraw = False
+17.0259 	EXP 	text_incorrect: text = 'Incorrect. \n\n The correct answer was: \nD'
+17.0259 	EXP 	blackRectIncorr: autoDraw = True
+17.0259 	EXP 	text_incorrect: autoDraw = True
+18.0384 	EXP 	text_incorrect: autoDraw = False
+18.5237 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+18.5241 	EXP 	New trial (rep=2, index=0): None
+18.5393 	EXP 	blackRectIncorr: autoDraw = False
+18.5393 	EXP 	blackRectIncorr: autoDraw = False
+18.5393 	EXP 	text_incorrect: autoDraw = False
+18.5393 	EXP 	BlackBlank: autoDraw = True
+19.1030 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/gill.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+19.1224 	EXP 	BlackBlank: autoDraw = False
+19.1224 	EXP 	BlackBlank: autoDraw = False
+19.1224 	EXP 	movie_stim_pract: movie = 'visual/gill.mp4'
+19.1224 	EXP 	movie_stim_pract: autoLog = True
+19.1224 	EXP 	movie_stim_pract: autoDraw = True
+19.6394 	EXP 	Sound sound_stim_pract started
+19.6394 	EXP 	Sound noise_pract started
+20.2060 	EXP 	Sound sound_stim_pract reached end of file
+20.2060 	EXP 	Sound noise_pract reached end of file
+20.2258 	EXP 	movie_stim_pract: autoDraw = False
+20.2258 	EXP 	movie_stim_pract: autoDraw = False
+20.2258 	EXP 	PracticeRespOptions: text = 'D\t\t\tTH\t\t\tB\t\t\tG'
+20.2258 	EXP 	blackRectP: autoDraw = True
+20.2258 	EXP 	PracticeRespOptions: autoDraw = True
+20.9242 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+20.9244 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+20.9246 	EXP 	New trial (rep=0, index=0): None
+20.9306 	DATA 	Keypress: 0
+20.9421 	EXP 	blackRectP: autoDraw = False
+20.9421 	EXP 	PracticeRespOptions: autoDraw = False
+20.9421 	EXP 	text_incorrect: text = 'Incorrect. \n\n The correct answer was: \nTH'
+20.9421 	EXP 	blackRectIncorr: autoDraw = True
+20.9421 	EXP 	text_incorrect: autoDraw = True
+21.9559 	EXP 	text_incorrect: autoDraw = False
+22.4403 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+22.4407 	EXP 	New trial (rep=3, index=0): None
+22.4559 	EXP 	blackRectIncorr: autoDraw = False
+22.4559 	EXP 	blackRectIncorr: autoDraw = False
+22.4559 	EXP 	text_incorrect: autoDraw = False
+22.4559 	EXP 	BlackBlank: autoDraw = True
+23.0159 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+23.0399 	EXP 	BlackBlank: autoDraw = False
+23.0399 	EXP 	BlackBlank: autoDraw = False
+23.0399 	EXP 	movie_stim_pract: movie = 'visual/degraded.mp4'
+23.0399 	EXP 	movie_stim_pract: autoLog = True
+23.0399 	EXP 	movie_stim_pract: autoDraw = True
+23.5730 	EXP 	Sound sound_stim_pract started
+23.5730 	EXP 	Sound noise_pract started
+24.0896 	EXP 	Sound sound_stim_pract reached end of file
+24.1274 	EXP 	Sound noise_pract stopped
+24.1446 	EXP 	movie_stim_pract: autoDraw = False
+24.1446 	EXP 	movie_stim_pract: autoDraw = False
+24.1446 	EXP 	PracticeRespOptions: text = 'D\t\t\tTH\t\t\tT\t\t\tF'
+24.1446 	EXP 	blackRectP: autoDraw = True
+24.1446 	EXP 	PracticeRespOptions: autoDraw = True
+24.7748 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+24.7750 	EXP 	New trial (rep=0, index=0): None
+24.7776 	DATA 	Keypress: 1
+24.7895 	EXP 	blackRectP: autoDraw = False
+24.7895 	EXP 	PracticeRespOptions: autoDraw = False
+24.7895 	EXP 	blackRectCorr: autoDraw = True
+24.7895 	EXP 	practiceCorr: autoDraw = True
+25.7900 	EXP 	practiceCorr: autoDraw = False
+26.2740 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+26.2742 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+26.2746 	EXP 	New trial (rep=4, index=0): None
+26.2905 	EXP 	blackRectCorr: autoDraw = False
+26.2905 	EXP 	blackRectCorr: autoDraw = False
+26.2905 	EXP 	practiceCorr: autoDraw = False
+26.2905 	EXP 	BlackBlank: autoDraw = True
+26.8517 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/fast.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+26.8738 	EXP 	BlackBlank: autoDraw = False
+26.8738 	EXP 	BlackBlank: autoDraw = False
+26.8738 	EXP 	movie_stim_pract: movie = 'visual/fast.mp4'
+26.8738 	EXP 	movie_stim_pract: autoLog = True
+26.8738 	EXP 	movie_stim_pract: autoDraw = True
+27.4066 	EXP 	Sound sound_stim_pract started
+27.4066 	EXP 	Sound noise_pract started
+27.9259 	EXP 	Sound sound_stim_pract reached end of file
+27.9638 	EXP 	Sound noise_pract stopped
+27.9822 	EXP 	movie_stim_pract: autoDraw = False
+27.9822 	EXP 	movie_stim_pract: autoDraw = False
+27.9822 	EXP 	PracticeRespOptions: text = 'D\t\t\tF\t\t\tTH\t\t\tT'
+27.9822 	EXP 	blackRectP: autoDraw = True
+27.9822 	EXP 	PracticeRespOptions: autoDraw = True
+28.4258 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+28.4260 	EXP 	New trial (rep=0, index=0): None
+28.4286 	DATA 	Keypress: 1
+28.4409 	EXP 	blackRectP: autoDraw = False
+28.4409 	EXP 	PracticeRespOptions: autoDraw = False
+28.4409 	EXP 	blackRectCorr: autoDraw = True
+28.4409 	EXP 	practiceCorr: autoDraw = True
+29.4405 	EXP 	practiceCorr: autoDraw = False
+29.9254 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+29.9256 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+29.9260 	EXP 	New trial (rep=5, index=0): None
+29.9402 	EXP 	blackRectCorr: autoDraw = False
+29.9402 	EXP 	blackRectCorr: autoDraw = False
+29.9402 	EXP 	practiceCorr: autoDraw = False
+29.9402 	EXP 	BlackBlank: autoDraw = True
+30.5017 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/fad.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+30.5246 	EXP 	BlackBlank: autoDraw = False
+30.5246 	EXP 	BlackBlank: autoDraw = False
+30.5246 	EXP 	movie_stim_pract: movie = 'visual/fad.mp4'
+30.5246 	EXP 	movie_stim_pract: autoLog = True
+30.5246 	EXP 	movie_stim_pract: autoDraw = True
+31.0580 	EXP 	Sound sound_stim_pract started
+31.0580 	EXP 	Sound noise_pract started
+31.5105 	EXP 	Sound sound_stim_pract reached end of file
+31.6139 	EXP 	Sound noise_pract stopped
+31.6338 	EXP 	movie_stim_pract: autoDraw = False
+31.6338 	EXP 	movie_stim_pract: autoDraw = False
+31.6338 	EXP 	PracticeRespOptions: text = 'T\t\t\tF\t\t\tTH\t\t\tD'
+31.6338 	EXP 	blackRectP: autoDraw = True
+31.6338 	EXP 	PracticeRespOptions: autoDraw = True
+32.5099 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+32.5102 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+32.5104 	EXP 	New trial (rep=0, index=0): None
+32.5165 	DATA 	Keypress: 2
+32.5283 	EXP 	blackRectP: autoDraw = False
+32.5283 	EXP 	PracticeRespOptions: autoDraw = False
+32.5283 	EXP 	text_incorrect: text = 'Incorrect. \n\n The correct answer was: \nD'
+32.5283 	EXP 	blackRectIncorr: autoDraw = True
+32.5283 	EXP 	text_incorrect: autoDraw = True
+33.5411 	EXP 	text_incorrect: autoDraw = False
+34.0258 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+34.0262 	EXP 	New trial (rep=6, index=0): None
+34.0414 	EXP 	blackRectIncorr: autoDraw = False
+34.0414 	EXP 	blackRectIncorr: autoDraw = False
+34.0414 	EXP 	text_incorrect: autoDraw = False
+34.0414 	EXP 	BlackBlank: autoDraw = True
+34.6005 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+34.6251 	EXP 	BlackBlank: autoDraw = False
+34.6251 	EXP 	BlackBlank: autoDraw = False
+34.6251 	EXP 	movie_stim_pract: movie = 'visual/degraded.mp4'
+34.6251 	EXP 	movie_stim_pract: autoLog = True
+34.6251 	EXP 	movie_stim_pract: autoDraw = True
+35.1417 	EXP 	Sound sound_stim_pract started
+35.1417 	EXP 	Sound noise_pract started
+35.6630 	EXP 	Sound sound_stim_pract reached end of file
+35.7102 	EXP 	Sound noise_pract reached end of file
+35.7286 	EXP 	movie_stim_pract: autoDraw = False
+35.7286 	EXP 	movie_stim_pract: autoDraw = False
+35.7286 	EXP 	PracticeRespOptions: text = 'D\t\t\tB\t\t\tTH\t\t\tG'
+35.7286 	EXP 	blackRectP: autoDraw = True
+35.7286 	EXP 	PracticeRespOptions: autoDraw = True
+36.5431 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+36.5433 	EXP 	New trial (rep=0, index=0): None
+36.5461 	DATA 	Keypress: 2
+36.5582 	EXP 	blackRectP: autoDraw = False
+36.5582 	EXP 	PracticeRespOptions: autoDraw = False
+36.5582 	EXP 	blackRectCorr: autoDraw = True
+36.5582 	EXP 	practiceCorr: autoDraw = True
+37.5583 	EXP 	practiceCorr: autoDraw = False
+38.0428 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+38.0430 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+38.0433 	EXP 	New trial (rep=7, index=0): None
+38.0583 	EXP 	blackRectCorr: autoDraw = False
+38.0583 	EXP 	blackRectCorr: autoDraw = False
+38.0583 	EXP 	practiceCorr: autoDraw = False
+38.0583 	EXP 	BlackBlank: autoDraw = True
+38.6176 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+38.6416 	EXP 	BlackBlank: autoDraw = False
+38.6416 	EXP 	BlackBlank: autoDraw = False
+38.6416 	EXP 	movie_stim_pract: movie = 'visual/degraded.mp4'
+38.6416 	EXP 	movie_stim_pract: autoLog = True
+38.6416 	EXP 	movie_stim_pract: autoDraw = True
+39.1583 	EXP 	Sound sound_stim_pract started
+39.1583 	EXP 	Sound noise_pract started
+39.7127 	EXP 	Sound sound_stim_pract reached end of file
+39.7284 	EXP 	Sound noise_pract reached end of file
+39.7470 	EXP 	movie_stim_pract: autoDraw = False
+39.7470 	EXP 	movie_stim_pract: autoDraw = False
+39.7470 	EXP 	PracticeRespOptions: text = 'D\t\t\tT\t\t\tTH\t\t\tF'
+39.7470 	EXP 	blackRectP: autoDraw = True
+39.7470 	EXP 	PracticeRespOptions: autoDraw = True
+40.2276 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+40.2278 	EXP 	New trial (rep=0, index=0): None
+40.2304 	DATA 	Keypress: 1
+40.2422 	EXP 	blackRectP: autoDraw = False
+40.2422 	EXP 	PracticeRespOptions: autoDraw = False
+40.2422 	EXP 	blackRectCorr: autoDraw = True
+40.2422 	EXP 	practiceCorr: autoDraw = True
+41.2427 	EXP 	practiceCorr: autoDraw = False
+41.7264 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+41.7266 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+41.7424 	EXP 	blackRectCorr: autoDraw = False
+41.7424 	EXP 	blackRectCorr: autoDraw = False
+41.7424 	EXP 	practiceCorr: autoDraw = False
+41.7424 	EXP 	blackScreen2: autoDraw = True
+41.7424 	EXP 	text: autoDraw = True
+46.3458 	EXP 	Created sequence: random, trialTypes=1, nReps=120, seed=None
+46.3468 	EXP 	New trial (rep=0, index=0): None
+46.6112 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/guy.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+46.6212 	DATA 	Keypress: space
+46.6278 	EXP 	blackScreen2: autoDraw = False
+46.6278 	EXP 	text: autoDraw = False
+46.6278 	EXP 	movie_stim: movie = 'visual/guy.mp4'
+46.6278 	EXP 	movie_stim: autoLog = True
+46.6278 	EXP 	movie_stim: autoDraw = True
+47.1272 	EXP 	Sound sound_stim started
+47.1272 	EXP 	Sound noise_stim started
+47.6101 	EXP 	Sound sound_stim reached end of file
+47.6945 	EXP 	Sound noise_stim reached end of file
+47.7290 	EXP 	movie_stim: autoDraw = False
+47.7290 	EXP 	movie_stim: autoDraw = False
+47.7290 	EXP 	StimRespOpts: text = 'G\t\t\tB\t\t\tD\t\t\tTH'
+47.7290 	EXP 	BlackRectStim: autoDraw = True
+47.7290 	EXP 	StimRespOpts: autoDraw = True
+48.4166 	DATA 	Keypress: 2
+48.4281 	EXP 	BlackRectStim: autoDraw = False
+48.4281 	EXP 	StimRespOpts: autoDraw = False
+48.4281 	EXP 	BlackBlank: autoDraw = True
+48.9127 	EXP 	New trial (rep=1, index=0): None
+48.9943 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+49.0267 	EXP 	BlackBlank: autoDraw = False
+49.0267 	EXP 	BlackBlank: autoDraw = False
+49.0267 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+49.0267 	EXP 	movie_stim: autoLog = True
+49.0267 	EXP 	movie_stim: autoDraw = True
+49.5434 	EXP 	Sound sound_stim started
+49.5434 	EXP 	Sound noise_stim started
+50.0622 	EXP 	Sound sound_stim reached end of file
+50.1127 	EXP 	Sound noise_stim reached end of file
+50.1327 	EXP 	movie_stim: autoDraw = False
+50.1327 	EXP 	movie_stim: autoDraw = False
+50.1327 	EXP 	StimRespOpts: text = 'F\t\t\tD\t\t\tTH\t\t\tT'
+50.1327 	EXP 	BlackRectStim: autoDraw = True
+50.1327 	EXP 	StimRespOpts: autoDraw = True
+50.6832 	DATA 	Keypress: 2
+50.6946 	EXP 	BlackRectStim: autoDraw = False
+50.6946 	EXP 	StimRespOpts: autoDraw = False
+50.6946 	EXP 	BlackBlank: autoDraw = True
+51.1788 	EXP 	New trial (rep=2, index=0): None
+51.2598 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+51.2779 	EXP 	BlackBlank: autoDraw = False
+51.2779 	EXP 	BlackBlank: autoDraw = False
+51.2779 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+51.2779 	EXP 	movie_stim: autoLog = True
+51.2779 	EXP 	movie_stim: autoDraw = True
+51.7946 	EXP 	Sound sound_stim started
+51.7946 	EXP 	Sound noise_stim started
+52.3629 	EXP 	Sound sound_stim reached end of file
+52.3630 	EXP 	Sound noise_stim reached end of file
+52.3832 	EXP 	movie_stim: autoDraw = False
+52.3832 	EXP 	movie_stim: autoDraw = False
+52.3832 	EXP 	StimRespOpts: text = 'G\t\t\tB\t\t\tTH\t\t\tD'
+52.3832 	EXP 	BlackRectStim: autoDraw = True
+52.3832 	EXP 	StimRespOpts: autoDraw = True
+52.8505 	DATA 	Keypress: 2
+52.8621 	EXP 	BlackRectStim: autoDraw = False
+52.8621 	EXP 	StimRespOpts: autoDraw = False
+52.8621 	EXP 	BlackBlank: autoDraw = True
+53.3468 	EXP 	New trial (rep=3, index=0): None
+53.4293 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/bag.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+53.4619 	EXP 	BlackBlank: autoDraw = False
+53.4619 	EXP 	BlackBlank: autoDraw = False
+53.4619 	EXP 	movie_stim: movie = 'visual/bag.mp4'
+53.4619 	EXP 	movie_stim: autoLog = True
+53.4619 	EXP 	movie_stim: autoDraw = True
+53.9801 	EXP 	Sound sound_stim started
+53.9801 	EXP 	Sound noise_stim started
+54.4973 	EXP 	Sound sound_stim reached end of file
+54.5478 	EXP 	Sound noise_stim reached end of file
+54.5684 	EXP 	movie_stim: autoDraw = False
+54.5684 	EXP 	movie_stim: autoDraw = False
+54.5684 	EXP 	StimRespOpts: text = 'B\t\t\tD\t\t\tG\t\t\tTH'
+54.5684 	EXP 	BlackRectStim: autoDraw = True
+54.5684 	EXP 	StimRespOpts: autoDraw = True
+55.0846 	DATA 	Keypress: 1
+55.0952 	EXP 	BlackRectStim: autoDraw = False
+55.0952 	EXP 	StimRespOpts: autoDraw = False
+55.0952 	EXP 	BlackBlank: autoDraw = True
+55.5796 	EXP 	New trial (rep=4, index=0): None
+55.6628 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/fast.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+55.6953 	EXP 	BlackBlank: autoDraw = False
+55.6953 	EXP 	BlackBlank: autoDraw = False
+55.6953 	EXP 	movie_stim: movie = 'visual/fast.mp4'
+55.6953 	EXP 	movie_stim: autoLog = True
+55.6953 	EXP 	movie_stim: autoDraw = True
+56.2121 	EXP 	Sound sound_stim started
+56.2121 	EXP 	Sound noise_stim started
+56.7476 	EXP 	Sound sound_stim reached end of file
+56.7810 	EXP 	Sound noise_stim reached end of file
+56.8033 	EXP 	movie_stim: autoDraw = False
+56.8033 	EXP 	movie_stim: autoDraw = False
+56.8033 	EXP 	StimRespOpts: text = 'T\t\t\tD\t\t\tTH\t\t\tF'
+56.8033 	EXP 	BlackRectStim: autoDraw = True
+56.8033 	EXP 	StimRespOpts: autoDraw = True
+57.3979 	DATA 	Keypress: minus
+58.0615 	EXP 	BlackRectStim: autoDraw = False
+58.0615 	EXP 	StimRespOpts: autoDraw = False
+58.0615 	EXP 	BlackRectStim: autoDraw = False
+58.0615 	EXP 	StimRespOpts: autoDraw = False
+58.0615 	EXP 	BlackBlank: autoDraw = True
+58.5476 	EXP 	New trial (rep=5, index=0): None
+58.6296 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/gill.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+58.6463 	EXP 	BlackBlank: autoDraw = False
+58.6463 	EXP 	BlackBlank: autoDraw = False
+58.6463 	EXP 	movie_stim: movie = 'visual/gill.mp4'
+58.6463 	EXP 	movie_stim: autoLog = True
+58.6463 	EXP 	movie_stim: autoDraw = True
+59.1624 	EXP 	Sound sound_stim started
+59.1624 	EXP 	Sound noise_stim started
+59.7317 	EXP 	Sound sound_stim reached end of file
+59.7318 	EXP 	Sound noise_stim reached end of file
+59.7519 	EXP 	movie_stim: autoDraw = False
+59.7519 	EXP 	movie_stim: autoDraw = False
+59.7519 	EXP 	StimRespOpts: text = 'B\t\t\tD\t\t\tTH\t\t\tG'
+59.7519 	EXP 	BlackRectStim: autoDraw = True
+59.7519 	EXP 	StimRespOpts: autoDraw = True
+60.4718 	DATA 	Keypress: 1
+60.4824 	EXP 	BlackRectStim: autoDraw = False
+60.4824 	EXP 	StimRespOpts: autoDraw = False
+60.4824 	EXP 	BlackBlank: autoDraw = True
+60.9805 	EXP 	New trial (rep=6, index=0): None
+61.0624 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+61.0804 	EXP 	BlackBlank: autoDraw = False
+61.0804 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+61.0804 	EXP 	movie_stim: autoLog = True
+61.0804 	EXP 	movie_stim: autoDraw = True
+61.6120 	EXP 	Sound sound_stim started
+61.6120 	EXP 	Sound noise_stim started
+62.1344 	EXP 	Sound sound_stim reached end of file
+62.1707 	EXP 	Sound noise_stim stopped
+62.1980 	EXP 	movie_stim: autoDraw = False
+62.1980 	EXP 	movie_stim: autoDraw = False
+62.1980 	EXP 	StimRespOpts: text = 'TH\t\t\tG\t\t\tD\t\t\tB'
+62.1980 	EXP 	BlackRectStim: autoDraw = True
+62.1980 	EXP 	StimRespOpts: autoDraw = True
+62.8527 	DATA 	Keypress: 0
+62.8634 	EXP 	BlackRectStim: autoDraw = False
+62.8634 	EXP 	StimRespOpts: autoDraw = False
+62.8634 	EXP 	BlackBlank: autoDraw = True
+63.3475 	EXP 	New trial (rep=7, index=0): None
+63.4312 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/beard.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+63.4626 	EXP 	BlackBlank: autoDraw = False
+63.4626 	EXP 	BlackBlank: autoDraw = False
+63.4626 	EXP 	movie_stim: movie = 'visual/beard.mp4'
+63.4626 	EXP 	movie_stim: autoLog = True
+63.4626 	EXP 	movie_stim: autoDraw = True
+63.9795 	EXP 	Sound sound_stim started
+63.9795 	EXP 	Sound noise_stim started
+64.5007 	EXP 	Sound sound_stim reached end of file
+64.5492 	EXP 	Sound noise_stim reached end of file
+64.5695 	EXP 	movie_stim: autoDraw = False
+64.5695 	EXP 	movie_stim: autoDraw = False
+64.5695 	EXP 	StimRespOpts: text = 'B\t\t\tTH\t\t\tG\t\t\tD'
+64.5695 	EXP 	BlackRectStim: autoDraw = True
+64.5695 	EXP 	StimRespOpts: autoDraw = True
+65.3523 	DATA 	Keypress: 1
+65.3640 	EXP 	BlackRectStim: autoDraw = False
+65.3640 	EXP 	StimRespOpts: autoDraw = False
+65.3640 	EXP 	BlackBlank: autoDraw = True
+65.8485 	EXP 	New trial (rep=8, index=0): None
+65.9323 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/fit.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+65.9635 	EXP 	BlackBlank: autoDraw = False
+65.9635 	EXP 	BlackBlank: autoDraw = False
+65.9635 	EXP 	movie_stim: movie = 'visual/fit.mp4'
+65.9635 	EXP 	movie_stim: autoLog = True
+65.9635 	EXP 	movie_stim: autoDraw = True
+66.4631 	EXP 	Sound sound_stim started
+66.4631 	EXP 	Sound noise_stim started
+66.9348 	EXP 	Sound sound_stim reached end of file
+67.0324 	EXP 	Sound noise_stim reached end of file
+67.0702 	EXP 	movie_stim: autoDraw = False
+67.0702 	EXP 	movie_stim: autoDraw = False
+67.0702 	EXP 	StimRespOpts: text = 'TH\t\t\tG\t\t\tD\t\t\tF'
+67.0702 	EXP 	BlackRectStim: autoDraw = True
+67.0702 	EXP 	StimRespOpts: autoDraw = True
+67.8196 	DATA 	Keypress: 0
+67.8307 	EXP 	BlackRectStim: autoDraw = False
+67.8307 	EXP 	StimRespOpts: autoDraw = False
+67.8307 	EXP 	BlackBlank: autoDraw = True
+68.3157 	EXP 	New trial (rep=9, index=0): None
+68.3990 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/dill.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+68.4297 	EXP 	BlackBlank: autoDraw = False
+68.4297 	EXP 	BlackBlank: autoDraw = False
+68.4297 	EXP 	movie_stim: movie = 'visual/dill.mp4'
+68.4297 	EXP 	movie_stim: autoLog = True
+68.4297 	EXP 	movie_stim: autoDraw = True
+68.9470 	EXP 	Sound sound_stim started
+68.9470 	EXP 	Sound noise_stim started
+69.4659 	EXP 	Sound sound_stim reached end of file
+69.5142 	EXP 	Sound noise_stim reached end of file
+69.5343 	EXP 	movie_stim: autoDraw = False
+69.5343 	EXP 	movie_stim: autoDraw = False
+69.5343 	EXP 	StimRespOpts: text = 'F\t\t\tT\t\t\tTH\t\t\tD'
+69.5343 	EXP 	BlackRectStim: autoDraw = True
+69.5343 	EXP 	StimRespOpts: autoDraw = True
+69.9362 	DATA 	Keypress: 9
+69.9478 	EXP 	BlackRectStim: autoDraw = False
+69.9478 	EXP 	StimRespOpts: autoDraw = False
+69.9478 	EXP 	BlackBlank: autoDraw = True
+70.4322 	EXP 	New trial (rep=10, index=0): None
+70.5136 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/file.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+70.5315 	EXP 	BlackBlank: autoDraw = False
+70.5315 	EXP 	BlackBlank: autoDraw = False
+70.5315 	EXP 	movie_stim: movie = 'visual/file.mp4'
+70.5315 	EXP 	movie_stim: autoLog = True
+70.5315 	EXP 	movie_stim: autoDraw = True
+71.0477 	EXP 	Sound sound_stim started
+71.0477 	EXP 	Sound noise_stim started
+71.5193 	EXP 	Sound sound_stim reached end of file
+71.6172 	EXP 	Sound noise_stim reached end of file
+71.6378 	EXP 	movie_stim: autoDraw = False
+71.6378 	EXP 	movie_stim: autoDraw = False
+71.6378 	EXP 	StimRespOpts: text = 'T\t\t\tD\t\t\tF\t\t\tTH'
+71.6378 	EXP 	BlackRectStim: autoDraw = True
+71.6378 	EXP 	StimRespOpts: autoDraw = True
+72.1204 	DATA 	Keypress: 9
+72.1321 	EXP 	BlackRectStim: autoDraw = False
+72.1321 	EXP 	StimRespOpts: autoDraw = False
+72.1321 	EXP 	BlackBlank: autoDraw = True
+72.6167 	EXP 	New trial (rep=11, index=0): None
+72.6987 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/fad.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+72.7313 	EXP 	BlackBlank: autoDraw = False
+72.7313 	EXP 	BlackBlank: autoDraw = False
+72.7313 	EXP 	movie_stim: movie = 'visual/fad.mp4'
+72.7313 	EXP 	movie_stim: autoLog = True
+72.7313 	EXP 	movie_stim: autoDraw = True
+73.2644 	EXP 	Sound sound_stim started
+73.2644 	EXP 	Sound noise_stim started
+73.7836 	EXP 	Sound sound_stim reached end of file
+73.8225 	EXP 	Sound noise_stim stopped
+73.8507 	EXP 	movie_stim: autoDraw = False
+73.8507 	EXP 	movie_stim: autoDraw = False
+73.8507 	EXP 	StimRespOpts: text = 'TH\t\t\tT\t\t\tD\t\t\tF'
+73.8507 	EXP 	BlackRectStim: autoDraw = True
+73.8507 	EXP 	StimRespOpts: autoDraw = True
+74.3545 	DATA 	Keypress: 9
+74.3659 	EXP 	BlackRectStim: autoDraw = False
+74.3659 	EXP 	StimRespOpts: autoDraw = False
+74.3659 	EXP 	BlackBlank: autoDraw = True
+74.8660 	EXP 	New trial (rep=12, index=0): None
+74.9491 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/five.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+74.9816 	EXP 	BlackBlank: autoDraw = False
+74.9816 	EXP 	movie_stim: movie = 'visual/five.mp4'
+74.9816 	EXP 	movie_stim: autoLog = True
+74.9816 	EXP 	movie_stim: autoDraw = True
+75.4988 	EXP 	Sound sound_stim started
+75.4988 	EXP 	Sound noise_stim started
+76.0533 	EXP 	Sound sound_stim reached end of file
+76.0681 	EXP 	Sound noise_stim reached end of file
+76.0907 	EXP 	movie_stim: autoDraw = False
+76.0907 	EXP 	movie_stim: autoDraw = False
+76.0907 	EXP 	StimRespOpts: text = 'T\t\t\tTH\t\t\tF\t\t\tD'
+76.0907 	EXP 	BlackRectStim: autoDraw = True
+76.0907 	EXP 	StimRespOpts: autoDraw = True
+76.6710 	DATA 	Keypress: 0
+76.6824 	EXP 	BlackRectStim: autoDraw = False
+76.6824 	EXP 	StimRespOpts: autoDraw = False
+76.6824 	EXP 	BlackBlank: autoDraw = True
+77.1834 	EXP 	New trial (rep=13, index=0): None
+77.2673 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/gig.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+77.2986 	EXP 	BlackBlank: autoDraw = False
+77.2986 	EXP 	movie_stim: movie = 'visual/gig.mp4'
+77.2986 	EXP 	movie_stim: autoLog = True
+77.2986 	EXP 	movie_stim: autoDraw = True
+77.8315 	EXP 	Sound sound_stim started
+77.8315 	EXP 	Sound noise_stim started
+78.3512 	EXP 	Sound sound_stim reached end of file
+78.3898 	EXP 	Sound noise_stim stopped
+78.4178 	EXP 	movie_stim: autoDraw = False
+78.4178 	EXP 	movie_stim: autoDraw = False
+78.4178 	EXP 	StimRespOpts: text = 'D\t\t\tTH\t\t\tG\t\t\tB'
+78.4178 	EXP 	BlackRectStim: autoDraw = True
+78.4178 	EXP 	StimRespOpts: autoDraw = True
+79.0716 	DATA 	Keypress: 0
+79.0832 	EXP 	BlackRectStim: autoDraw = False
+79.0832 	EXP 	StimRespOpts: autoDraw = False
+79.0832 	EXP 	BlackBlank: autoDraw = True
+79.5839 	EXP 	New trial (rep=14, index=0): None
+79.6659 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+79.6826 	EXP 	BlackBlank: autoDraw = False
+79.6826 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+79.6826 	EXP 	movie_stim: autoLog = True
+79.6826 	EXP 	movie_stim: autoDraw = True
+80.2155 	EXP 	Sound sound_stim started
+80.2155 	EXP 	Sound noise_stim started
+80.7359 	EXP 	Sound sound_stim reached end of file
+80.7746 	EXP 	Sound noise_stim stopped
+80.8014 	EXP 	movie_stim: autoDraw = False
+80.8014 	EXP 	movie_stim: autoDraw = False
+80.8014 	EXP 	StimRespOpts: text = 'D\t\t\tB\t\t\tTH\t\t\tG'
+80.8014 	EXP 	BlackRectStim: autoDraw = True
+80.8014 	EXP 	StimRespOpts: autoDraw = True
+81.2387 	DATA 	Keypress: 0
+81.2500 	EXP 	BlackRectStim: autoDraw = False
+81.2500 	EXP 	StimRespOpts: autoDraw = False
+81.2500 	EXP 	BlackBlank: autoDraw = True
+81.7506 	EXP 	New trial (rep=15, index=0): None
+81.8331 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+81.8655 	EXP 	BlackBlank: autoDraw = False
+81.8655 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+81.8655 	EXP 	movie_stim: autoLog = True
+81.8655 	EXP 	movie_stim: autoDraw = True
+82.3819 	EXP 	Sound sound_stim started
+82.3819 	EXP 	Sound noise_stim started
+82.9366 	EXP 	Sound sound_stim reached end of file
+82.9497 	EXP 	Sound noise_stim reached end of file
+82.9681 	EXP 	movie_stim: autoDraw = False
+82.9681 	EXP 	movie_stim: autoDraw = False
+82.9681 	EXP 	StimRespOpts: text = 'D\t\t\tT\t\t\tTH\t\t\tF'
+82.9681 	EXP 	BlackRectStim: autoDraw = True
+82.9681 	EXP 	StimRespOpts: autoDraw = True
+83.4719 	DATA 	Keypress: 1
+83.4834 	EXP 	BlackRectStim: autoDraw = False
+83.4834 	EXP 	StimRespOpts: autoDraw = False
+83.4834 	EXP 	BlackBlank: autoDraw = True
+83.9685 	EXP 	New trial (rep=16, index=0): None
+84.0507 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/dine.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+84.0831 	EXP 	BlackBlank: autoDraw = False
+84.0831 	EXP 	BlackBlank: autoDraw = False
+84.0831 	EXP 	movie_stim: movie = 'visual/dine.mp4'
+84.0831 	EXP 	movie_stim: autoLog = True
+84.0831 	EXP 	movie_stim: autoDraw = True
+84.5999 	EXP 	Sound sound_stim started
+84.5999 	EXP 	Sound noise_stim started
+85.1203 	EXP 	Sound sound_stim reached end of file
+85.1693 	EXP 	Sound noise_stim reached end of file
+85.1899 	EXP 	movie_stim: autoDraw = False
+85.1899 	EXP 	movie_stim: autoDraw = False
+85.1899 	EXP 	StimRespOpts: text = 'F\t\t\tTH\t\t\tT\t\t\tD'
+85.1899 	EXP 	BlackRectStim: autoDraw = True
+85.1899 	EXP 	StimRespOpts: autoDraw = True
+85.6891 	DATA 	Keypress: 0
+85.7005 	EXP 	BlackRectStim: autoDraw = False
+85.7005 	EXP 	StimRespOpts: autoDraw = False
+85.7005 	EXP 	BlackBlank: autoDraw = True
+86.1851 	EXP 	New trial (rep=17, index=0): None
+86.2675 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+86.3000 	EXP 	BlackBlank: autoDraw = False
+86.3000 	EXP 	BlackBlank: autoDraw = False
+86.3000 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+86.3000 	EXP 	movie_stim: autoLog = True
+86.3000 	EXP 	movie_stim: autoDraw = True
+86.8336 	EXP 	Sound sound_stim started
+86.8336 	EXP 	Sound noise_stim started
+87.3188 	EXP 	Sound sound_stim reached end of file
+87.3911 	EXP 	Sound noise_stim stopped
+87.4191 	EXP 	movie_stim: autoDraw = False
+87.4191 	EXP 	movie_stim: autoDraw = False
+87.4191 	EXP 	StimRespOpts: text = 'F\t\t\tD\t\t\tT\t\t\tTH'
+87.4191 	EXP 	BlackRectStim: autoDraw = True
+87.4191 	EXP 	StimRespOpts: autoDraw = True
+88.4071 	DATA 	Keypress: 1
+88.4177 	EXP 	BlackRectStim: autoDraw = False
+88.4177 	EXP 	StimRespOpts: autoDraw = False
+88.4177 	EXP 	BlackBlank: autoDraw = True
+88.9019 	EXP 	New trial (rep=18, index=0): None
+88.9841 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+89.0014 	EXP 	BlackBlank: autoDraw = False
+89.0014 	EXP 	BlackBlank: autoDraw = False
+89.0014 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+89.0014 	EXP 	movie_stim: autoLog = True
+89.0014 	EXP 	movie_stim: autoDraw = True
+89.5332 	EXP 	Sound sound_stim started
+89.5332 	EXP 	Sound noise_stim started
+90.0527 	EXP 	Sound sound_stim reached end of file
+90.0915 	EXP 	Sound noise_stim stopped
+90.1197 	EXP 	movie_stim: autoDraw = False
+90.1197 	EXP 	movie_stim: autoDraw = False
+90.1197 	EXP 	StimRespOpts: text = 'F\t\t\tT\t\t\tTH\t\t\tD'
+90.1197 	EXP 	BlackRectStim: autoDraw = True
+90.1197 	EXP 	StimRespOpts: autoDraw = True
+90.7065 	DATA 	Keypress: 0
+90.7179 	EXP 	BlackRectStim: autoDraw = False
+90.7179 	EXP 	StimRespOpts: autoDraw = False
+90.7179 	EXP 	BlackBlank: autoDraw = True
+91.2021 	EXP 	New trial (rep=19, index=0): None
+91.2848 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+91.3017 	EXP 	BlackBlank: autoDraw = False
+91.3017 	EXP 	BlackBlank: autoDraw = False
+91.3017 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+91.3017 	EXP 	movie_stim: autoLog = True
+91.3017 	EXP 	movie_stim: autoDraw = True
+91.8011 	EXP 	Sound sound_stim started
+91.8011 	EXP 	Sound noise_stim started
+92.2859 	EXP 	Sound sound_stim reached end of file
+92.3695 	EXP 	Sound noise_stim reached end of file
+92.4068 	EXP 	movie_stim: autoDraw = False
+92.4068 	EXP 	movie_stim: autoDraw = False
+92.4068 	EXP 	StimRespOpts: text = 'B\t\t\tTH\t\t\tD\t\t\tG'
+92.4068 	EXP 	BlackRectStim: autoDraw = True
+92.4068 	EXP 	StimRespOpts: autoDraw = True
+93.0730 	DATA 	Keypress: 1
+93.0848 	EXP 	BlackRectStim: autoDraw = False
+93.0848 	EXP 	StimRespOpts: autoDraw = False
+93.0848 	EXP 	BlackBlank: autoDraw = True
+93.5694 	EXP 	New trial (rep=20, index=0): None
+93.6541 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/fat.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+93.6849 	EXP 	BlackBlank: autoDraw = False
+93.6849 	EXP 	BlackBlank: autoDraw = False
+93.6849 	EXP 	movie_stim: movie = 'visual/fat.mp4'
+93.6849 	EXP 	movie_stim: autoLog = True
+93.6849 	EXP 	movie_stim: autoDraw = True
+94.1841 	EXP 	Sound sound_stim started
+94.1841 	EXP 	Sound noise_stim started
+94.7203 	EXP 	Sound sound_stim reached end of file
+94.7542 	EXP 	Sound noise_stim reached end of file
+94.7908 	EXP 	movie_stim: autoDraw = False
+94.7908 	EXP 	movie_stim: autoDraw = False
+94.7908 	EXP 	StimRespOpts: text = 'T\t\t\tTH\t\t\tF\t\t\tD'
+94.7908 	EXP 	BlackRectStim: autoDraw = True
+94.7908 	EXP 	StimRespOpts: autoDraw = True
+95.4575 	DATA 	Keypress: 0
+95.4691 	EXP 	BlackRectStim: autoDraw = False
+95.4691 	EXP 	StimRespOpts: autoDraw = False
+95.4691 	EXP 	BlackBlank: autoDraw = True
+95.9693 	EXP 	New trial (rep=21, index=0): None
+96.0535 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/gang.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+96.0844 	EXP 	BlackBlank: autoDraw = False
+96.0844 	EXP 	movie_stim: movie = 'visual/gang.mp4'
+96.0844 	EXP 	movie_stim: autoLog = True
+96.0844 	EXP 	movie_stim: autoDraw = True
+96.5845 	EXP 	Sound sound_stim started
+96.5845 	EXP 	Sound noise_stim started
+97.1545 	EXP 	Sound sound_stim reached end of file
+97.1545 	EXP 	Sound noise_stim reached end of file
+97.1910 	EXP 	movie_stim: autoDraw = False
+97.1910 	EXP 	movie_stim: autoDraw = False
+97.1910 	EXP 	StimRespOpts: text = 'TH\t\t\tG\t\t\tD\t\t\tB'
+97.1910 	EXP 	BlackRectStim: autoDraw = True
+97.1910 	EXP 	StimRespOpts: autoDraw = True
+97.9577 	DATA 	Keypress: 2
+97.9688 	EXP 	BlackRectStim: autoDraw = False
+97.9688 	EXP 	StimRespOpts: autoDraw = False
+97.9688 	EXP 	BlackBlank: autoDraw = True
+98.4530 	EXP 	New trial (rep=22, index=0): None
+98.5360 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/dial.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+98.5690 	EXP 	BlackBlank: autoDraw = False
+98.5690 	EXP 	BlackBlank: autoDraw = False
+98.5690 	EXP 	movie_stim: movie = 'visual/dial.mp4'
+98.5690 	EXP 	movie_stim: autoLog = True
+98.5690 	EXP 	movie_stim: autoDraw = True
+99.0691 	EXP 	Sound sound_stim started
+99.0691 	EXP 	Sound noise_stim started
+99.5527 	EXP 	Sound sound_stim reached end of file
+99.6356 	EXP 	Sound noise_stim reached end of file
+99.6715 	EXP 	movie_stim: autoDraw = False
+99.6715 	EXP 	movie_stim: autoDraw = False
+99.6715 	EXP 	StimRespOpts: text = 'D\t\t\tTH\t\t\tF\t\t\tT'
+99.6715 	EXP 	BlackRectStim: autoDraw = True
+99.6715 	EXP 	StimRespOpts: autoDraw = True
+100.1919 	DATA 	Keypress: 9
+100.2035 	EXP 	BlackRectStim: autoDraw = False
+100.2035 	EXP 	StimRespOpts: autoDraw = False
+100.2035 	EXP 	BlackBlank: autoDraw = True
+100.7041 	EXP 	New trial (rep=23, index=0): None
+100.7860 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+100.8193 	EXP 	BlackBlank: autoDraw = False
+100.8193 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+100.8193 	EXP 	movie_stim: autoLog = True
+100.8193 	EXP 	movie_stim: autoDraw = True
+101.3191 	EXP 	Sound sound_stim started
+101.3191 	EXP 	Sound noise_stim started
+101.7883 	EXP 	Sound sound_stim reached end of file
+101.8881 	EXP 	Sound noise_stim reached end of file
+101.9270 	EXP 	movie_stim: autoDraw = False
+101.9270 	EXP 	movie_stim: autoDraw = False
+101.9270 	EXP 	StimRespOpts: text = 'D\t\t\tG\t\t\tB\t\t\tTH'
+101.9270 	EXP 	BlackRectStim: autoDraw = True
+101.9270 	EXP 	StimRespOpts: autoDraw = True
+103.0587 	DATA 	Keypress: 2
+103.0704 	EXP 	BlackRectStim: autoDraw = False
+103.0704 	EXP 	StimRespOpts: autoDraw = False
+103.0704 	EXP 	BlackBlank: autoDraw = True
+103.5705 	EXP 	New trial (rep=24, index=0): None
+103.6663 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+103.6855 	EXP 	BlackBlank: autoDraw = False
+103.6855 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+103.6855 	EXP 	movie_stim: autoLog = True
+103.6855 	EXP 	movie_stim: autoDraw = True
+104.2026 	EXP 	Sound sound_stim started
+104.2026 	EXP 	Sound noise_stim started
+104.7377 	EXP 	Sound sound_stim reached end of file
+104.7716 	EXP 	Sound noise_stim reached end of file
+104.7918 	EXP 	movie_stim: autoDraw = False
+104.7918 	EXP 	movie_stim: autoDraw = False
+104.7918 	EXP 	StimRespOpts: text = 'B\t\t\tT\t\t\tG\t\t\tD'
+104.7918 	EXP 	BlackRectStim: autoDraw = True
+104.7918 	EXP 	StimRespOpts: autoDraw = True
+105.2928 	DATA 	Keypress: 9
+105.3043 	EXP 	BlackRectStim: autoDraw = False
+105.3043 	EXP 	StimRespOpts: autoDraw = False
+105.3043 	EXP 	BlackBlank: autoDraw = True
+105.8046 	EXP 	New trial (rep=25, index=0): None
+105.8863 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+105.9197 	EXP 	BlackBlank: autoDraw = False
+105.9197 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+105.9197 	EXP 	movie_stim: autoLog = True
+105.9197 	EXP 	movie_stim: autoDraw = True
+106.4363 	EXP 	Sound sound_stim started
+106.4363 	EXP 	Sound noise_stim started
+106.9558 	EXP 	Sound sound_stim reached end of file
+107.0049 	EXP 	Sound noise_stim reached end of file
+107.0250 	EXP 	movie_stim: autoDraw = False
+107.0250 	EXP 	movie_stim: autoDraw = False
+107.0250 	EXP 	StimRespOpts: text = 'B\t\t\tTH\t\t\tD\t\t\tG'
+107.0250 	EXP 	BlackRectStim: autoDraw = True
+107.0250 	EXP 	StimRespOpts: autoDraw = True
+108.2598 	DATA 	Keypress: 1
+108.2715 	EXP 	BlackRectStim: autoDraw = False
+108.2715 	EXP 	StimRespOpts: autoDraw = False
+108.2715 	EXP 	BlackBlank: autoDraw = True
+108.7719 	EXP 	New trial (rep=26, index=0): None
+108.8563 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/dash.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+108.8872 	EXP 	BlackBlank: autoDraw = False
+108.8872 	EXP 	movie_stim: movie = 'visual/dash.mp4'
+108.8872 	EXP 	movie_stim: autoLog = True
+108.8872 	EXP 	movie_stim: autoDraw = True
+109.4206 	EXP 	Sound sound_stim started
+109.4206 	EXP 	Sound noise_stim started
+109.9063 	EXP 	Sound sound_stim reached end of file
+109.9791 	EXP 	Sound noise_stim stopped
+110.0067 	EXP 	movie_stim: autoDraw = False
+110.0067 	EXP 	movie_stim: autoDraw = False
+110.0067 	EXP 	StimRespOpts: text = 'D\t\t\tF\t\t\tTH\t\t\tT'
+110.0067 	EXP 	BlackRectStim: autoDraw = True
+110.0067 	EXP 	StimRespOpts: autoDraw = True
+110.5434 	DATA 	Keypress: 9
+110.5548 	EXP 	BlackRectStim: autoDraw = False
+110.5548 	EXP 	StimRespOpts: autoDraw = False
+110.5548 	EXP 	BlackBlank: autoDraw = True
+111.0554 	EXP 	New trial (rep=27, index=0): None
+111.1408 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/fat.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+111.1706 	EXP 	BlackBlank: autoDraw = False
+111.1706 	EXP 	movie_stim: movie = 'visual/fat.mp4'
+111.1706 	EXP 	movie_stim: autoLog = True
+111.1706 	EXP 	movie_stim: autoDraw = True
+111.7048 	EXP 	Sound sound_stim started
+111.7048 	EXP 	Sound noise_stim started
+112.1904 	EXP 	Sound sound_stim reached end of file
+112.2629 	EXP 	Sound noise_stim stopped
+112.2900 	EXP 	movie_stim: autoDraw = False
+112.2900 	EXP 	movie_stim: autoDraw = False
+112.2900 	EXP 	StimRespOpts: text = 'F\t\t\tD\t\t\tT\t\t\tTH'
+112.2900 	EXP 	BlackRectStim: autoDraw = True
+112.2900 	EXP 	StimRespOpts: autoDraw = True
+112.8264 	DATA 	Keypress: 1
+112.8378 	EXP 	BlackRectStim: autoDraw = False
+112.8378 	EXP 	StimRespOpts: autoDraw = False
+112.8378 	EXP 	BlackBlank: autoDraw = True
+113.3229 	EXP 	New trial (rep=28, index=0): None
+113.4040 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+113.4222 	EXP 	BlackBlank: autoDraw = False
+113.4222 	EXP 	BlackBlank: autoDraw = False
+113.4222 	EXP 	movie_stim: movie = 'visual/degraded.mp4'
+113.4222 	EXP 	movie_stim: autoLog = True
+113.4222 	EXP 	movie_stim: autoDraw = True
+113.9373 	EXP 	Sound sound_stim started
+113.9373 	EXP 	Sound noise_stim started
+114.4214 	EXP 	Sound sound_stim reached end of file
+114.5042 	EXP 	Sound noise_stim reached end of file
+114.5391 	EXP 	movie_stim: autoDraw = False
+114.5391 	EXP 	movie_stim: autoDraw = False
+114.5391 	EXP 	StimRespOpts: text = 'D\t\t\tTH\t\t\tF\t\t\tG'
+114.5391 	EXP 	BlackRectStim: autoDraw = True
+114.5391 	EXP 	StimRespOpts: autoDraw = True
+115.2108 	DATA 	Keypress: 9
+115.2225 	EXP 	BlackRectStim: autoDraw = False
+115.2225 	EXP 	StimRespOpts: autoDraw = False
+115.2225 	EXP 	BlackBlank: autoDraw = True
+115.7226 	EXP 	New trial (rep=29, index=0): None
+115.8057 	EXP 	Created movie_stim = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/bag.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+115.8383 	EXP 	BlackBlank: autoDraw = False
+115.8383 	EXP 	movie_stim: movie = 'visual/bag.mp4'
+115.8383 	EXP 	movie_stim: autoLog = True
+115.8383 	EXP 	movie_stim: autoDraw = True
+115.8911 	DATA 	Keypress: escape
+116.5271 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,126 @@
+7.3090 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13318d780>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138e18438>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.3091 	EXP 	window1: recordFrameIntervals = False
+7.4750 	EXP 	window1: recordFrameIntervals = True
+7.6584 	EXP 	window1: recordFrameIntervals = False
+7.6867 	EXP 	Created blackScreen = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=0, name='blackScreen', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.7907 	EXP 	Created doPracticePrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='doPracticePrompt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8005 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.8378 	EXP 	Created practInstr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practInstr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8480 	EXP 	Created BlackBlank = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='BlackBlank', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.0087 	EXP 	Sound sound_stim_pract set volume 1.000
+8.0265 	EXP 	Sound noise_pract set volume 1.000
+8.0276 	EXP 	Created blackRectP = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='blackRectP', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.0318 	EXP 	Created PracticeRespOptions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='PracticeRespOptions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.0457 	EXP 	Created blackRectCorr = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='blackRectCorr', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.0494 	EXP 	Created practiceCorr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practiceCorr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Correct!', units='height', win=Window(...), wrapWidth=1)
+8.0504 	EXP 	Created blackRectIncorr = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='blackRectIncorr', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.0528 	EXP 	Created text_incorrect = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_incorrect', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.0538 	EXP 	Created rectNoAns = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='rectNoAns', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.0601 	EXP 	Created practNoAnsText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practNoAnsText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0609 	EXP 	Created blackScreen2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='blackScreen2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.0864 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+8.1129 	EXP 	Sound sound_stim set volume 1.000
+8.1305 	EXP 	Sound noise_stim set volume 1.000
+8.1317 	EXP 	Created BlackRectStim = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='BlackRectStim', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.1341 	EXP 	Created StimRespOpts = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StimRespOpts', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.1443 	EXP 	Created BlackBlank = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='BlackBlank', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+8.1829 	EXP 	blackScreen: autoDraw = True
+8.1829 	EXP 	doPracticePrompt: autoDraw = True
+9.9484 	DATA 	Keypress: y
+9.9620 	EXP 	blackScreen: autoDraw = False
+9.9620 	EXP 	doPracticePrompt: autoDraw = False
+9.9620 	EXP 	polygon: autoDraw = True
+9.9620 	EXP 	practInstr: autoDraw = True
+15.3912 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+15.3914 	EXP 	New trial (rep=0, index=0): None
+15.3917 	EXP 	Created sequence: random, trialTypes=1, nReps=8, seed=None
+15.3919 	EXP 	New trial (rep=0, index=0): None
+15.3943 	DATA 	Keypress: space
+15.4075 	EXP 	polygon: autoDraw = False
+15.4075 	EXP 	practInstr: autoDraw = False
+15.4075 	EXP 	BlackBlank: autoDraw = True
+16.2210 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/degraded.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+16.2431 	EXP 	BlackBlank: autoDraw = False
+16.2431 	EXP 	movie_stim_pract: movie = 'visual/degraded.mp4'
+16.2431 	EXP 	movie_stim_pract: autoLog = True
+16.2431 	EXP 	movie_stim_pract: autoDraw = True
+16.7598 	EXP 	Sound sound_stim_pract started
+16.7598 	EXP 	Sound noise_pract started
+17.2885 	EXP 	Sound sound_stim_pract reached end of file
+17.3301 	EXP 	Sound noise_pract reached end of file
+17.3612 	EXP 	movie_stim_pract: autoDraw = False
+17.3612 	EXP 	movie_stim_pract: autoDraw = False
+17.3612 	EXP 	PracticeRespOptions: text = 'G\t\t\tB\t\t\tD\t\t\tTH'
+17.3612 	EXP 	blackRectP: autoDraw = True
+17.3612 	EXP 	PracticeRespOptions: autoDraw = True
+18.2776 	DATA 	Keypress: d
+18.5933 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+18.5935 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+18.5937 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+18.5939 	EXP 	New trial (rep=0, index=0): None
+18.6079 	EXP 	blackRectP: autoDraw = False
+18.6079 	EXP 	PracticeRespOptions: autoDraw = False
+18.6079 	EXP 	rectNoAns: autoDraw = True
+18.6079 	EXP 	practNoAnsText: autoDraw = True
+20.0927 	EXP 	New trial (rep=1, index=0): None
+20.1080 	EXP 	rectNoAns: autoDraw = False
+20.1080 	EXP 	practNoAnsText: autoDraw = False
+20.1080 	EXP 	BlackBlank: autoDraw = True
+20.6739 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/guy.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+20.7083 	EXP 	BlackBlank: autoDraw = False
+20.7083 	EXP 	BlackBlank: autoDraw = False
+20.7083 	EXP 	movie_stim_pract: movie = 'visual/guy.mp4'
+20.7083 	EXP 	movie_stim_pract: autoLog = True
+20.7083 	EXP 	movie_stim_pract: autoDraw = True
+21.2257 	EXP 	Sound sound_stim_pract started
+21.2257 	EXP 	Sound noise_pract started
+21.7528 	EXP 	Sound sound_stim_pract reached end of file
+21.7949 	EXP 	Sound noise_pract reached end of file
+21.8110 	EXP 	movie_stim_pract: autoDraw = False
+21.8110 	EXP 	movie_stim_pract: autoDraw = False
+21.8110 	EXP 	PracticeRespOptions: text = 'B\t\t\tG\t\t\tT\t\t\tD'
+21.8110 	EXP 	blackRectP: autoDraw = True
+21.8110 	EXP 	PracticeRespOptions: autoDraw = True
+22.6288 	DATA 	Keypress: d
+23.0602 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+23.0605 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+23.0606 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+23.0608 	EXP 	New trial (rep=0, index=0): None
+23.0754 	EXP 	blackRectP: autoDraw = False
+23.0754 	EXP 	PracticeRespOptions: autoDraw = False
+23.0754 	EXP 	rectNoAns: autoDraw = True
+23.0754 	EXP 	practNoAnsText: autoDraw = True
+24.5603 	EXP 	New trial (rep=2, index=0): None
+24.5755 	EXP 	rectNoAns: autoDraw = False
+24.5755 	EXP 	practNoAnsText: autoDraw = False
+24.5755 	EXP 	BlackBlank: autoDraw = True
+25.1412 	EXP 	Created movie_stim_pract = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='visual/gill.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie_stim_pract', noAudio=True, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([720., 480.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+25.1762 	EXP 	BlackBlank: autoDraw = False
+25.1762 	EXP 	BlackBlank: autoDraw = False
+25.1762 	EXP 	movie_stim_pract: movie = 'visual/gill.mp4'
+25.1762 	EXP 	movie_stim_pract: autoLog = True
+25.1762 	EXP 	movie_stim_pract: autoDraw = True
+25.6757 	EXP 	Sound sound_stim_pract started
+25.6757 	EXP 	Sound noise_pract started
+26.2465 	EXP 	Sound sound_stim_pract reached end of file
+26.2506 	EXP 	Sound noise_pract reached end of file
+26.2818 	EXP 	movie_stim_pract: autoDraw = False
+26.2818 	EXP 	movie_stim_pract: autoDraw = False
+26.2818 	EXP 	PracticeRespOptions: text = 'G\t\t\tB\t\t\tD\t\t\tTH'
+26.2818 	EXP 	blackRectP: autoDraw = True
+26.2818 	EXP 	PracticeRespOptions: autoDraw = True
+27.2628 	DATA 	Keypress: e
+27.5273 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+27.5278 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+27.5279 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+27.5281 	EXP 	New trial (rep=0, index=0): None
+27.5434 	EXP 	blackRectP: autoDraw = False
+27.5434 	EXP 	PracticeRespOptions: autoDraw = False
+27.5434 	EXP 	rectNoAns: autoDraw = True
+27.5434 	EXP 	practNoAnsText: autoDraw = True
+28.9961 	DATA 	Keypress: escape
+29.0283 	EXP 	New trial (rep=3, index=0): None
+29.0434 	EXP 	rectNoAns: autoDraw = False
+29.0434 	EXP 	practNoAnsText: autoDraw = False
+29.0434 	EXP 	BlackBlank: autoDraw = True
+29.5138 	EXP 	window1: mouseVisible = True

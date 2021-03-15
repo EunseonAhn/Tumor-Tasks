@@ -1,0 +1,240 @@
+7.1201 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x137f57b00>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13974c278>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.1201 	EXP 	window1: recordFrameIntervals = False
+7.2858 	EXP 	window1: recordFrameIntervals = True
+7.4694 	EXP 	window1: recordFrameIntervals = False
+7.6181 	EXP 	Created instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='deg', win=Window(...), wrapWidth=15.0)
+7.6278 	EXP 	window1: mouseVisible = False
+7.6473 	EXP 	Created text1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='text1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+7.6882 	EXP 	Sound stimSound set volume 1.000
+7.7025 	EXP 	instruction: autoDraw = True
+8.4766 	EXP 	Imported audio.csv as conditions, 32 conditions, 1 params
+8.4770 	EXP 	Created sequence: random, trialTypes=32, nReps=1, seed=None
+8.4773 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'audio/Piano.wav')])
+8.5055 	DATA 	Keypress: space
+8.5195 	EXP 	instruction: autoDraw = False
+8.5195 	EXP 	text1: text = 'audio/Piano.wav'
+9.2034 	EXP 	Sound stimSound started
+9.2032 	EXP 	text1: autoDraw = True
+10.9873 	EXP 	Sound stimSound reached end of file
+11.6716 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'audio/Blanket.wav')])
+11.6832 	DATA 	Keypress: space
+11.7038 	EXP 	text1: autoDraw = False
+11.7038 	EXP 	text1: text = 'audio/Blanket.wav'
+12.2530 	EXP 	Sound stimSound started
+12.2536 	EXP 	text1: autoDraw = True
+14.0445 	EXP 	Sound stimSound reached end of file
+14.4714 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'audio/Thermometer.wav')])
+14.4821 	DATA 	Keypress: space
+14.5035 	EXP 	text1: autoDraw = False
+14.5035 	EXP 	text1: text = 'audio/Thermometer.wav'
+15.2206 	EXP 	Sound stimSound started
+15.2203 	EXP 	text1: autoDraw = True
+16.5424 	EXP 	Sound stimSound reached end of file
+17.0720 	EXP 	New trial (rep=0, index=3): OrderedDict([('stimFile', 'audio/Duck.wav')])
+17.0818 	DATA 	Keypress: space
+17.1037 	EXP 	text1: autoDraw = False
+17.1037 	EXP 	text1: text = 'audio/Duck.wav'
+17.6929 	EXP 	Sound stimSound started
+17.6938 	EXP 	text1: autoDraw = True
+18.9773 	EXP 	Sound stimSound reached end of file
+20.5938 	EXP 	New trial (rep=0, index=4): OrderedDict([('stimFile', 'audio/Lightning.wav')])
+20.6036 	DATA 	Keypress: space
+20.6223 	EXP 	text1: autoDraw = False
+20.6223 	EXP 	text1: text = 'audio/Lightning.wav'
+21.4606 	EXP 	Sound stimSound started
+21.4613 	EXP 	text1: autoDraw = True
+22.8722 	EXP 	Sound stimSound reached end of file
+23.3736 	EXP 	New trial (rep=0, index=5): OrderedDict([('stimFile', 'audio/Grape.wav')])
+23.3849 	DATA 	Keypress: space
+23.4058 	EXP 	text1: autoDraw = False
+23.4058 	EXP 	text1: text = 'audio/Grape.wav'
+24.3726 	EXP 	Sound stimSound started
+24.3727 	EXP 	text1: autoDraw = True
+25.4223 	EXP 	Sound stimSound reached end of file
+26.3070 	EXP 	New trial (rep=0, index=6): OrderedDict([('stimFile', 'audio/Astronaut.wav')])
+26.3183 	DATA 	Keypress: space
+26.3394 	EXP 	text1: autoDraw = False
+26.3394 	EXP 	text1: text = 'audio/Astronaut.wav'
+27.0734 	EXP 	Sound stimSound started
+27.0733 	EXP 	text1: autoDraw = True
+28.4404 	EXP 	Sound stimSound reached end of file
+28.9408 	EXP 	New trial (rep=0, index=7): OrderedDict([('stimFile', 'audio/Bee.wav')])
+28.9483 	DATA 	Keypress: space
+28.9565 	EXP 	text1: autoDraw = False
+28.9565 	EXP 	text1: text = 'audio/Bee.wav'
+29.8234 	EXP 	Sound stimSound started
+29.8234 	EXP 	text1: autoDraw = True
+30.8905 	EXP 	Sound stimSound reached end of file
+31.2915 	EXP 	New trial (rep=0, index=8): OrderedDict([('stimFile', 'audio/Pumpkin.wav')])
+31.2997 	DATA 	Keypress: space
+31.3073 	EXP 	text1: autoDraw = False
+31.3073 	EXP 	text1: text = 'audio/Pumpkin.wav'
+31.8406 	EXP 	Sound stimSound started
+31.8400 	EXP 	text1: autoDraw = True
+33.2570 	EXP 	Sound stimSound reached end of file
+33.2752 	EXP 	New trial (rep=0, index=9): OrderedDict([('stimFile', 'audio/Gym.wav')])
+33.2834 	DATA 	Keypress: space
+33.2909 	EXP 	text1: autoDraw = False
+33.2909 	EXP 	text1: text = 'audio/Gym.wav'
+34.1131 	EXP 	Sound stimSound started
+34.1140 	EXP 	text1: autoDraw = True
+35.3408 	EXP 	Sound stimSound reached end of file
+37.0264 	EXP 	New trial (rep=0, index=10): OrderedDict([('stimFile', 'audio/Brain.wav')])
+37.0343 	DATA 	Keypress: space
+37.0499 	EXP 	text1: autoDraw = False
+37.0499 	EXP 	text1: text = 'audio/Brain.wav'
+37.6909 	EXP 	Sound stimSound started
+37.6909 	EXP 	text1: autoDraw = True
+39.0089 	EXP 	Sound stimSound reached end of file
+39.2969 	EXP 	New trial (rep=0, index=11): OrderedDict([('stimFile', 'audio/Spider.wav')])
+39.3057 	DATA 	Keypress: space
+39.3299 	EXP 	text1: autoDraw = False
+39.3299 	EXP 	text1: text = 'audio/Spider.wav'
+40.0916 	EXP 	Sound stimSound started
+40.0919 	EXP 	text1: autoDraw = True
+41.1927 	EXP 	Sound stimSound reached end of file
+41.3935 	EXP 	New trial (rep=0, index=12): OrderedDict([('stimFile', 'audio/Apron.wav')])
+41.4020 	DATA 	Keypress: space
+41.4095 	EXP 	text1: autoDraw = False
+41.4095 	EXP 	text1: text = 'audio/Apron.wav'
+42.2634 	EXP 	Sound stimSound started
+42.2640 	EXP 	text1: autoDraw = True
+43.8257 	EXP 	Sound stimSound reached end of file
+43.9601 	EXP 	New trial (rep=0, index=13): OrderedDict([('stimFile', 'audio/Banana.wav')])
+43.9683 	DATA 	Keypress: space
+43.9762 	EXP 	text1: autoDraw = False
+43.9762 	EXP 	text1: text = 'audio/Banana.wav'
+44.8433 	EXP 	Sound stimSound started
+44.8427 	EXP 	text1: autoDraw = True
+44.8605 	DATA 	Mouse: wheel shift=(0,0), pos=(77,804)
+44.8778 	DATA 	Mouse: wheel shift=(0,0), pos=(77,804)
+46.3132 	EXP 	Sound stimSound reached end of file
+46.4778 	EXP 	New trial (rep=0, index=14): OrderedDict([('stimFile', 'audio/Lung.wav')])
+46.4849 	DATA 	Keypress: space
+46.4932 	EXP 	text1: autoDraw = False
+46.4932 	EXP 	text1: text = 'audio/Lung.wav'
+47.1815 	EXP 	Sound stimSound started
+47.1829 	EXP 	text1: autoDraw = True
+48.3266 	EXP 	Sound stimSound reached end of file
+48.6109 	EXP 	New trial (rep=0, index=15): OrderedDict([('stimFile', 'audio/Drum.wav')])
+48.6193 	DATA 	Keypress: space
+48.6268 	EXP 	text1: autoDraw = False
+48.6268 	EXP 	text1: text = 'audio/Drum.wav'
+49.1493 	EXP 	Sound stimSound started
+49.1504 	EXP 	text1: autoDraw = True
+50.8155 	EXP 	Sound stimSound reached end of file
+50.9171 	EXP 	New trial (rep=0, index=16): OrderedDict([('stimFile', 'audio/Moth.wav')])
+50.9262 	DATA 	Keypress: space
+50.9441 	EXP 	text1: autoDraw = False
+50.9441 	EXP 	text1: text = 'audio/Moth.wav'
+51.6612 	EXP 	Sound stimSound started
+51.6604 	EXP 	text1: autoDraw = True
+53.0114 	EXP 	Sound stimSound reached end of file
+54.3668 	EXP 	New trial (rep=0, index=17): OrderedDict([('stimFile', 'audio/Pilot.wav')])
+54.3746 	DATA 	Keypress: space
+54.3996 	EXP 	text1: autoDraw = False
+54.3996 	EXP 	text1: text = 'audio/Pilot.wav'
+55.1448 	EXP 	Sound stimSound started
+55.1445 	EXP 	text1: autoDraw = True
+56.3950 	EXP 	Sound stimSound reached end of file
+56.8956 	EXP 	New trial (rep=0, index=18): OrderedDict([('stimFile', 'audio/Gun.wav')])
+56.9027 	DATA 	Keypress: space
+56.9111 	EXP 	text1: autoDraw = False
+56.9111 	EXP 	text1: text = 'audio/Gun.wav'
+57.7286 	EXP 	Sound stimSound started
+57.7289 	EXP 	text1: autoDraw = True
+58.9956 	EXP 	Sound stimSound reached end of file
+59.1971 	EXP 	New trial (rep=0, index=19): OrderedDict([('stimFile', 'audio/Calculator.wav')])
+59.2072 	DATA 	Keypress: space
+59.2286 	EXP 	text1: autoDraw = False
+59.2286 	EXP 	text1: text = 'audio/Calculator.wav'
+60.0786 	EXP 	Sound stimSound started
+60.0790 	EXP 	text1: autoDraw = True
+61.3794 	EXP 	Sound stimSound reached end of file
+61.5640 	EXP 	New trial (rep=0, index=20): OrderedDict([('stimFile', 'audio/Key.wav')])
+61.5735 	DATA 	Keypress: space
+61.5810 	EXP 	text1: autoDraw = False
+61.5810 	EXP 	text1: text = 'audio/Key.wav'
+62.0961 	EXP 	Sound stimSound started
+62.0960 	EXP 	text1: autoDraw = True
+63.2672 	EXP 	Sound stimSound reached end of file
+63.5475 	EXP 	New trial (rep=0, index=21): OrderedDict([('stimFile', 'audio/Volcano.wav')])
+63.5563 	DATA 	Keypress: space
+63.5638 	EXP 	text1: autoDraw = False
+63.5638 	EXP 	text1: text = 'audio/Volcano.wav'
+64.4682 	EXP 	Sound stimSound started
+64.4692 	EXP 	text1: autoDraw = True
+65.5134 	EXP 	Sound stimSound reached end of file
+65.8199 	EXP 	New trial (rep=0, index=22): OrderedDict([('stimFile', 'audio/Cat.wav')])
+65.8282 	DATA 	Keypress: space
+65.8515 	EXP 	text1: autoDraw = False
+65.8515 	EXP 	text1: text = 'audio/Cat.wav'
+66.4801 	EXP 	Sound stimSound started
+66.4804 	EXP 	text1: autoDraw = True
+67.8152 	EXP 	Sound stimSound reached end of file
+68.0478 	EXP 	New trial (rep=0, index=23): OrderedDict([('stimFile', 'audio/Flag.wav')])
+68.0570 	DATA 	Keypress: space
+68.0647 	EXP 	text1: autoDraw = False
+68.0647 	EXP 	text1: text = 'audio/Flag.wav'
+68.7143 	EXP 	Sound stimSound started
+68.7133 	EXP 	text1: autoDraw = True
+70.2314 	EXP 	Sound stimSound reached end of file
+70.4151 	EXP 	New trial (rep=0, index=24): OrderedDict([('stimFile', 'audio/Cow.wav')])
+70.4233 	DATA 	Keypress: space
+70.4312 	EXP 	text1: autoDraw = False
+70.4312 	EXP 	text1: text = 'audio/Cow.wav'
+70.9852 	EXP 	Sound stimSound started
+70.9862 	EXP 	text1: autoDraw = True
+72.2476 	EXP 	Sound stimSound reached end of file
+72.5326 	EXP 	New trial (rep=0, index=25): OrderedDict([('stimFile', 'audio/Camera.wav')])
+72.5407 	DATA 	Keypress: space
+72.5483 	EXP 	text1: autoDraw = False
+72.5483 	EXP 	text1: text = 'audio/Camera.wav'
+73.4361 	EXP 	Sound stimSound started
+73.4369 	EXP 	text1: autoDraw = True
+74.6822 	EXP 	Sound stimSound reached end of file
+74.7492 	EXP 	New trial (rep=0, index=26): OrderedDict([('stimFile', 'audio/Heart.wav')])
+74.7591 	DATA 	Keypress: space
+74.7823 	EXP 	text1: autoDraw = False
+74.7823 	EXP 	text1: text = 'audio/Heart.wav'
+75.4654 	EXP 	Sound stimSound started
+75.4657 	EXP 	text1: autoDraw = True
+76.6652 	EXP 	Sound stimSound reached end of file
+76.8504 	EXP 	New trial (rep=0, index=27): OrderedDict([('stimFile', 'audio/Bank.wav')])
+76.8586 	DATA 	Keypress: space
+76.8662 	EXP 	text1: autoDraw = False
+76.8662 	EXP 	text1: text = 'audio/Bank.wav'
+77.8158 	EXP 	Sound stimSound started
+77.8160 	EXP 	text1: autoDraw = True
+79.1672 	EXP 	Sound stimSound reached end of file
+79.3385 	EXP 	New trial (rep=0, index=28): OrderedDict([('stimFile', 'audio/Pool.wav')])
+79.3473 	DATA 	Keypress: space
+79.3704 	EXP 	text1: autoDraw = False
+79.3704 	EXP 	text1: text = 'audio/Pool.wav'
+80.0664 	EXP 	Sound stimSound started
+80.0659 	EXP 	text1: autoDraw = True
+81.5052 	EXP 	Sound stimSound reached end of file
+81.6503 	EXP 	New trial (rep=0, index=29): OrderedDict([('stimFile', 'audio/Guitar.wav')])
+81.7001 	DATA 	Keypress: space
+81.7164 	EXP 	text1: autoDraw = False
+81.7164 	EXP 	text1: text = 'audio/Guitar.wav'
+82.4885 	EXP 	Sound stimSound started
+82.4893 	EXP 	text1: autoDraw = True
+84.5345 	EXP 	Sound stimSound reached end of file
+84.5852 	EXP 	New trial (rep=0, index=30): OrderedDict([('stimFile', 'audio/Mechanic.wav')])
+84.5942 	DATA 	Keypress: space
+84.6018 	EXP 	text1: autoDraw = False
+84.6018 	EXP 	text1: text = 'audio/Mechanic.wav'
+85.4835 	EXP 	Sound stimSound started
+85.4834 	EXP 	text1: autoDraw = True
+86.7676 	EXP 	Sound stimSound reached end of file
+86.8516 	EXP 	New trial (rep=0, index=31): OrderedDict([('stimFile', 'audio/Bow.wav')])
+86.8599 	DATA 	Keypress: space
+86.8677 	EXP 	text1: autoDraw = False
+86.8677 	EXP 	text1: text = 'audio/Bow.wav'
+87.8507 	EXP 	Sound stimSound started
+87.8506 	EXP 	text1: autoDraw = True
+89.1348 	EXP 	Sound stimSound reached end of file
+92.3712 	DATA 	Keypress: space
+92.3854 	EXP 	text1: autoDraw = False
+92.4090 	EXP 	window1: mouseVisible = True

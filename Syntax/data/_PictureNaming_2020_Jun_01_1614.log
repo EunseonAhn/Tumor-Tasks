@@ -1,0 +1,29 @@
+5.9413 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13883fac8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x132ce6278>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.9413 	EXP 	window1: recordFrameIntervals = False
+6.1074 	EXP 	window1: recordFrameIntervals = True
+6.1921 	WARNING 	t of last frame was 32.97ms (=1/30)
+6.2263 	WARNING 	t of last frame was 34.17ms (=1/29)
+6.2589 	WARNING 	t of last frame was 32.62ms (=1/30)
+6.2926 	WARNING 	t of last frame was 33.73ms (=1/29)
+6.4595 	EXP 	window1: recordFrameIntervals = False
+6.5607 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+6.5690 	EXP 	window1: mouseVisible = False
+6.5715 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+6.6242 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please describe the action that is occuring in the picture as fast as you can without making mistakes. The answers will be a few words. As soon as you think of the action, say it out loud. For example, if we show you a picture of a boy chasing a girl, you would say "boy chasing girl."\n'
+6.6242 	EXP 	text: autoDraw = True
+7.7310 	EXP 	Imported images.csv as conditions, 28 conditions, 1 params
+7.7313 	EXP 	Created sequence: random, trialTypes=28, nReps=1, seed=None
+7.7316 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/image26.png')])
+7.8122 	DATA 	Keypress: space
+7.8243 	EXP 	text: autoDraw = False
+7.8243 	EXP 	image: size = array([0.65555556, 0.65555556])
+7.8243 	EXP 	image: image = 'Images/image26.png'
+8.7578 	EXP 	image: autoDraw = True
+9.0598 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'Images/image9.png')])
+9.0732 	DATA 	Keypress: space
+9.0913 	EXP 	image: autoDraw = False
+9.0913 	EXP 	image: size = array([0.65555556, 0.65555556])
+9.0913 	EXP 	image: image = 'Images/image9.png'
+9.9915 	EXP 	image: autoDraw = True
+10.0445 	DATA 	Keypress: escape
+10.1642 	EXP 	window1: mouseVisible = True

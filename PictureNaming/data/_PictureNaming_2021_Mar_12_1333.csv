@@ -1,0 +1,8 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,rotate.keys,rotate.rt,rotate.started,rotate.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,144.84022703103255,None,space,1.1265548400115222,144.84022703103255,None,,,,,,,,,,,001,,2021_Mar_12_1333,PictureNaming,2020.1.2,60.40622400050217,
+Images/Trainclr.jpg,0,0,0,44,,,,,,,146.99006426800042,None,space,2.2872102620312944,146.03951260400936,None,right,1.4149931150022894,146.03951260400936,None,001,,2021_Mar_12_1333,PictureNaming,2020.1.2,60.40622400050217,
+Images/Bookclr.jpg,0,1,1,5,,,,,,,149.18103440501727,None,space,1.4890890750102699,148.37359561800258,None,None,,148.37359561800258,None,001,,2021_Mar_12_1333,PictureNaming,2020.1.2,60.40622400050217,
+Images/Sunclr.jpg,0,2,2,41,,,,,,,150.49084178701742,None,space,1.0605849840212613,149.9060965460376,None,None,,149.9060965460376,None,001,,2021_Mar_12_1333,PictureNaming,2020.1.2,60.40622400050217,
+Images/Pigclr.jpg,0,3,3,34,,,,,,,151.57447083003353,None,space,1.1758663370274007,151.00683993502753,None,None,,151.00683993502753,None,001,,2021_Mar_12_1333,PictureNaming,2020.1.2,60.40622400050217,
+Images/Sealclr.jpg,0,4,4,39,,,,,,,152.9745387280127,None,space,1.7263946160092019,152.22434870700818,None,left,1.2942498560296372,152.22434870700818,None,001,,2021_Mar_12_1333,PictureNaming,2020.1.2,60.40622400050217,
+Images/Guitarclr.jpg,0,5,5,23,,,,,,,154.5240298479912,None,space,0.9356796399806626,153.99093998101307,None,None,,153.99093998101307,None,001,,2021_Mar_12_1333,PictureNaming,2020.1.2,60.40622400050217,

@@ -1,0 +1,41 @@
+5.3452 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x138647b38>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138ce9780>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.3452 	EXP 	window1: recordFrameIntervals = False
+5.5114 	EXP 	window1: recordFrameIntervals = True
+5.6952 	EXP 	window1: recordFrameIntervals = False
+5.7910 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+5.7995 	EXP 	window1: mouseVisible = False
+5.8015 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+5.8612 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please describe the action that is occuring in the picture as fast as you can without making mistakes. The answers will be a few words. As soon as you think of the action, say it out loud. For example, if we show you a picture of a boy chasing a girl, you would say "boy chasing girl."\n'
+5.8612 	EXP 	text: autoDraw = True
+6.3513 	EXP 	Imported images.csv as conditions, 28 conditions, 1 params
+6.3516 	EXP 	Created sequence: random, trialTypes=28, nReps=1, seed=None
+6.3519 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/image10.jpg')])
+6.3521 	WARNING 	Requested image 'Images/image10.jpg' not found but similar filename 'Images/image10.png' exists. This will be used instead but changing the filename is advised.
+6.4212 	DATA 	Keypress: space
+6.4451 	EXP 	text: autoDraw = False
+6.4451 	EXP 	image: size = array([0.65555556, 0.65555556])
+6.4451 	EXP 	image: image = 'Images/image10.jpg'
+7.0950 	EXP 	image: autoDraw = True
+8.0127 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'Images/image6.jpg')])
+8.0129 	WARNING 	Requested image 'Images/image6.jpg' not found but similar filename 'Images/image6.png' exists. This will be used instead but changing the filename is advised.
+8.0264 	DATA 	Keypress: space
+8.0450 	EXP 	image: autoDraw = False
+8.0450 	EXP 	image: size = array([0.65555556, 0.65555556])
+8.0450 	EXP 	image: image = 'Images/image6.jpg'
+8.6452 	EXP 	image: autoDraw = True
+10.2132 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'Images/image4.jpg')])
+10.2135 	WARNING 	Requested image 'Images/image4.jpg' not found but similar filename 'Images/image4.png' exists. This will be used instead but changing the filename is advised.
+10.2265 	DATA 	Keypress: space
+10.2456 	EXP 	image: autoDraw = False
+10.2456 	EXP 	image: size = array([0.65555556, 0.65555556])
+10.2456 	EXP 	image: image = 'Images/image4.jpg'
+10.8124 	EXP 	image: autoDraw = True
+11.3135 	EXP 	New trial (rep=0, index=3): OrderedDict([('stimFile', 'Images/image2.jpg')])
+11.3138 	WARNING 	Requested image 'Images/image2.jpg' not found but similar filename 'Images/image2.png' exists. This will be used instead but changing the filename is advised.
+11.3275 	DATA 	Keypress: space
+11.3456 	EXP 	image: autoDraw = False
+11.3456 	EXP 	image: size = array([0.65555556, 0.65555556])
+11.3456 	EXP 	image: image = 'Images/image2.jpg'
+11.8625 	EXP 	image: autoDraw = True
+12.2814 	DATA 	Keypress: escape
+12.3902 	EXP 	window1: mouseVisible = True

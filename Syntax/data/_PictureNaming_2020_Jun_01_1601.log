@@ -1,0 +1,34 @@
+5.4878 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x138958b38>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138bd9748>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.4879 	EXP 	window1: recordFrameIntervals = False
+5.6545 	EXP 	window1: recordFrameIntervals = True
+5.8375 	EXP 	window1: recordFrameIntervals = False
+5.9536 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+5.9631 	EXP 	window1: mouseVisible = False
+5.9652 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+6.0257 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please describe the action that is occuring in the picture as fast as you can without making mistakes. The answers will be a few words. As soon as you think of the action, say it out loud. For example, if we show you a picture of a boy chasing a girl, you would say "boy chasing girl."\n'
+6.0257 	EXP 	text: autoDraw = True
+6.4263 	EXP 	Imported images.csv as conditions, 28 conditions, 1 params
+6.4266 	EXP 	Created sequence: random, trialTypes=28, nReps=1, seed=None
+6.4269 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/image5.jpg')])
+6.4271 	WARNING 	Requested image 'Images/image5.jpg' not found but similar filename 'Images/image5.png' exists. This will be used instead but changing the filename is advised.
+6.4856 	DATA 	Keypress: space
+6.5035 	EXP 	text: autoDraw = False
+6.5035 	EXP 	image: size = array([0.65555556, 0.65555556])
+6.5035 	EXP 	image: image = 'Images/image5.jpg'
+7.1289 	EXP 	image: autoDraw = True
+7.6889 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'Images/image18.jpg')])
+7.6891 	WARNING 	Requested image 'Images/image18.jpg' not found but similar filename 'Images/image18.png' exists. This will be used instead but changing the filename is advised.
+7.7011 	DATA 	Keypress: space
+7.7208 	EXP 	image: autoDraw = False
+7.7208 	EXP 	image: size = array([0.65555556, 0.65555556])
+7.7208 	EXP 	image: image = 'Images/image18.jpg'
+8.4051 	EXP 	image: autoDraw = True
+8.7060 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'Images/image21.jpg')])
+8.7062 	WARNING 	Requested image 'Images/image21.jpg' not found but similar filename 'Images/image21.png' exists. This will be used instead but changing the filename is advised.
+8.7189 	DATA 	Keypress: space
+8.7383 	EXP 	image: autoDraw = False
+8.7383 	EXP 	image: size = array([0.65555556, 0.65555556])
+8.7383 	EXP 	image: image = 'Images/image21.jpg'
+9.4046 	EXP 	image: autoDraw = True
+10.1577 	DATA 	Keypress: escape
+10.2785 	EXP 	window1: mouseVisible = True

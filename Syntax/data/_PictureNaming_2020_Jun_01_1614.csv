@@ -1,0 +1,3 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,6.624159664992476,None,space,1.0936084270069841,6.624159664992476,None,,,,,,,001,,2020_Jun_01_1614,PictureNaming,2020.1.2,59.98805782311918,
+Images/image26.png,0,0,0,25,,,,,,,8.75784584300709,None,space,1.2295141509966925,7.824326116999146,None,001,,2020_Jun_01_1614,PictureNaming,2020.1.2,59.98805782311918,

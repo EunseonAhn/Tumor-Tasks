@@ -1,0 +1,4 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,rotate.keys,rotate.started,rotate.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,6.241781909018755,None,space,0.5698620670009404,6.241781909018755,None,,,,,,,,,,001,,2021_Mar_12_1121,PictureNaming,2020.1.2,60.1286590764742,
+Images/Horseclr.jpg,0,0,0,25,,,,,,,7.491929039009847,None,space,1.274113759980537,6.913518778048456,None,None,6.913518778048456,None,001,,2021_Mar_12_1121,PictureNaming,2020.1.2,60.1286590764742,
+Images/Footballclr.jpg,0,1,1,18,,,,,,,9.109059858019464,None,space,1.6654069710057229,8.226233427994885,None,None,8.226233427994885,None,001,,2021_Mar_12_1121,PictureNaming,2020.1.2,60.1286590764742,

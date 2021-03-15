@@ -1,0 +1,6 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,8.545727245043963,None,space,1.9695337060256861,8.545727245043963,None,,,,,,,001,,2021_Mar_12_1345,PictureNaming,2020.1.2,60.32445907656045,
+Images/Catclr.jpg,0,0,0,8,,,,,,,11.079853405011818,None,space,1.327371771039907,10.595918652019463,None,001,,2021_Mar_12_1345,PictureNaming,2020.1.2,60.32445907656045,
+Images/Chickenclr.jpg,0,1,1,10,,,,,,,12.613714560051449,None,space,1.4309921929962002,11.96431512804702,None,001,,2021_Mar_12_1345,PictureNaming,2020.1.2,60.32445907656045,
+Images/Pineappleclr.jpg,0,2,2,35,,,,,,,14.063997715013102,None,space,1.1039650090388022,13.43532348901499,None,001,,2021_Mar_12_1345,PictureNaming,2020.1.2,60.32445907656045,
+Images/Swanclr.jpg,0,3,3,42,,,,,,,15.196916286018677,None,space,2.8059198720147833,14.581395318033174,None,001,,2021_Mar_12_1345,PictureNaming,2020.1.2,60.32445907656045,

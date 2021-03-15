@@ -1,0 +1,19 @@
+6.9107 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13896da90>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138ce96d8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9107 	EXP 	window1: recordFrameIntervals = False
+7.0773 	EXP 	window1: recordFrameIntervals = True
+7.2610 	EXP 	window1: recordFrameIntervals = False
+7.3664 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+7.3750 	EXP 	window1: mouseVisible = False
+7.3771 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+7.4450 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please describe the action that is occuring in the picture as fast as you can without making mistakes. The answers will be a few words. As soon as you think of the action, say it out loud. For example, if we show you a picture of a boy chasing a girl, you would say "boy chasing girl."\n'
+7.4450 	EXP 	text: autoDraw = True
+8.1527 	EXP 	Imported images.csv as conditions, 28 conditions, 1 params
+8.1530 	EXP 	Created sequence: random, trialTypes=28, nReps=1, seed=None
+8.1533 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/image19.png')])
+8.2280 	DATA 	Keypress: space
+8.2478 	EXP 	text: autoDraw = False
+8.2478 	EXP 	image: size = array([0.65555556, 0.65555556])
+8.2478 	EXP 	image: image = 'Images/image19.png'
+8.8446 	EXP 	image: autoDraw = True
+12.4135 	DATA 	Keypress: escape
+12.5009 	EXP 	window1: mouseVisible = True

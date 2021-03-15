@@ -1,0 +1,3 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,6.178259161999449,None,space,1.2106635549862403,6.178259161999449,None,,,,,,,001,,2020_Jun_01_1531,PictureNaming,2020.1.2,59.4332770743958,
+Images/Dogclr.jpg,0,0,0,14,,,,,,,8.377995393995661,None,space,1.1350126249890309,7.477908818982542,None,001,,2020_Jun_01_1531,PictureNaming,2020.1.2,59.4332770743958,

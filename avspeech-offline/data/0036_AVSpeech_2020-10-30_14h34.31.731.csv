@@ -1,0 +1,16 @@
+doPracticeResp.keys,doPracticeResp.rt,practInstResp.keys,practInstResp.rt,audioFileIdx,visualFileIdx,responseOptions,correctResponse,PracticeResponse.keys,PracticeResponse.corr,practNoAns.thisRepN,practNoAns.thisTrialN,practNoAns.thisN,practNoAns.thisIndex,practNoAns.ran,participant,session,date,expName,psychopyVersion,OS,frameRate,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran
+y,4.42,space,5.664,,,B TH G D,1,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,
+,,,,,,,,,,,,,,,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,0,0,0,0,1
+,,,,,,D G B T,1,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,
+,,,,,,,,,,,,,,,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,1,0,1,0,1
+,,,,,,D G TH B,9,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,
+,,,,,,,,,,,,,,,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,2,0,2,0,1
+,,,,,,F T D TH,9,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,
+,,,,,,,,,,,,,,,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,3,0,3,0,1
+,,,,,,T TH D F,9,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,
+,,,,,,,,,,,,,,,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,4,0,4,0,1
+,,,,,,D TH F T,1,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,
+,,,,,,,,,,,,,,,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,5,0,5,0,1
+,,,,,,B TH D G,1,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,
+,,,,,,,,,,,,,,,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,6,0,6,0,1
+,,,,,,F T D TH,9,,0,0,0,0,0,1,0036,001,2020-10-30_14h34.31.731,AVSpeech,2020.1.2,MacIntel,60,,,,,

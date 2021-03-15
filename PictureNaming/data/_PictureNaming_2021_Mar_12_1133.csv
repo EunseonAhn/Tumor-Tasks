@@ -1,0 +1,7 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,rotate.keys,rotate.started,rotate.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,6.28531753399875,None,space,0.34458420902956277,6.28531753399875,None,,,,,,,,,,001,,2021_Mar_12_1133,PictureNaming,2020.1.2,60.322579571289324,
+Images/Pigclr.jpg,0,0,0,34,,,,,,,7.251955834974069,None,space,1.1194559219875373,6.726403951004613,None,None,6.726403951004613,None,001,,2021_Mar_12_1133,PictureNaming,2020.1.2,60.322579571289324,
+Images/Trainclr.jpg,0,1,1,44,,,,,,,8.502082891005557,None,space,2.8163880240172148,7.885482311015949,None,None,7.885482311015949,None,001,,2021_Mar_12_1133,PictureNaming,2020.1.2,60.322579571289324,
+Images/Gorillaclr.jpg,0,2,2,22,,,,,,,11.32062438200228,None,space,1.0768563860328868,10.73708697600523,None,None,10.73708697600523,None,001,,2021_Mar_12_1133,PictureNaming,2020.1.2,60.322579571289324,
+Images/Sealclr.jpg,0,3,3,39,,,,,,,12.68662084598327,None,space,1.3924151429673657,11.853502965008374,None,None,11.853502965008374,None,001,,2021_Mar_12_1133,PictureNaming,2020.1.2,60.322579571289324,
+Images/Duckclr.jpg,0,4,4,15,,,,,,,13.78760974202305,None,space,2.0740516140358523,13.275811886996962,None,None,13.275811886996962,None,001,,2021_Mar_12_1133,PictureNaming,2020.1.2,60.322579571289324,

@@ -1,0 +1,5 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text_2.started,text_2.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,5.7406606010044925,None,space,0.9954604409867898,5.7406606010044925,None,,,,,,,,,001,,2020_Jun_01_1736,PictureNaming,2020.1.2,59.93439689694561,
+Images/Owlclr.jpg,0,0,0,32,,,,,,,7.5875777790206484,None,space,1.4226494030153845,6.857442613021703,None,6.857442613021703,7.862395781005034,001,,2020_Jun_01_1736,PictureNaming,2020.1.2,59.93439689694561,
+Images/Frogclr.jpg,0,1,1,19,,,,,,,8.971345610014396,None,space,1.6305603529908694,8.321549619024154,None,8.321549619024154,9.321108262025518,001,,2020_Jun_01_1736,PictureNaming,2020.1.2,59.93439689694561,
+Images/Roosterclr.jpg,0,2,2,37,,,,,,,10.637801981007215,None,space,1.9149853879935108,9.989127950015245,None,9.989127950015245,10.988788866001414,001,,2020_Jun_01_1736,PictureNaming,2020.1.2,59.93439689694561,

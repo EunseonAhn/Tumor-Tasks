@@ -1,0 +1,63 @@
+5.3321 	DATA 	Mouse: wheel shift=(0,0), pos=(107,799)
+5.3803 	DATA 	Mouse: wheel shift=(0,0), pos=(108,798)
+5.7690 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13316ec88>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138f83ba8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7690 	EXP 	window1: recordFrameIntervals = False
+5.9349 	EXP 	window1: recordFrameIntervals = True
+6.1183 	EXP 	window1: recordFrameIntervals = False
+6.2072 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+6.2147 	EXP 	window1: mouseVisible = False
+6.2168 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+6.2853 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please identify the object in the picture as fast as you can with a single word. As soon as you think of the word, say it out loud. For example, if we show you a picture of a boat, you say "BOAT." Some images could have more than one answer. Just say the best answer.\n\n'
+6.2853 	EXP 	text: autoDraw = True
+6.6468 	EXP 	Imported images.csv as conditions, 48 conditions, 1 params
+6.6472 	EXP 	Created sequence: random, trialTypes=48, nReps=1, seed=None
+6.6474 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/Pigclr.jpg')])
+6.7100 	DATA 	Keypress: space
+6.7264 	EXP 	text: autoDraw = False
+6.7264 	EXP 	image: ori = 0
+6.7264 	EXP 	image: ori = 0.0
+6.7264 	EXP 	image: size = array([0.62444444, 0.43777778])
+6.7264 	EXP 	image: image = 'Images/Pigclr.jpg'
+7.2520 	EXP 	image: autoDraw = True
+7.8537 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'Images/Trainclr.jpg')])
+7.8633 	DATA 	Keypress: space
+7.8855 	EXP 	image: autoDraw = False
+7.8855 	EXP 	image: ori = 6210
+7.8855 	EXP 	image: ori = 6210.0
+7.8855 	EXP 	image: size = array([0.62444444, 0.43777778])
+7.8855 	EXP 	image: image = 'Images/Trainclr.jpg'
+8.5021 	EXP 	image: autoDraw = True
+10.7042 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'Images/Gorillaclr.jpg')])
+10.7149 	DATA 	Keypress: space
+10.7371 	EXP 	image: autoDraw = False
+10.7371 	EXP 	image: ori = 20610
+10.7371 	EXP 	image: ori = 20610.0
+10.7371 	EXP 	image: size = array([0.43777778, 0.62444444])
+10.7371 	EXP 	image: image = 'Images/Gorillaclr.jpg'
+11.3206 	EXP 	image: autoDraw = True
+11.8209 	EXP 	New trial (rep=0, index=3): OrderedDict([('stimFile', 'Images/Sealclr.jpg')])
+11.8308 	DATA 	Keypress: space
+11.8535 	EXP 	image: autoDraw = False
+11.8535 	EXP 	image: ori = 26640
+11.8535 	EXP 	image: ori = 26640.0
+11.8535 	EXP 	image: size = array([0.62444444, 0.43777778])
+11.8535 	EXP 	image: image = 'Images/Sealclr.jpg'
+12.6866 	EXP 	image: autoDraw = True
+13.2490 	EXP 	New trial (rep=0, index=4): OrderedDict([('stimFile', 'Images/Duckclr.jpg')])
+13.2586 	DATA 	Keypress: space
+13.2758 	EXP 	image: autoDraw = False
+13.2758 	EXP 	image: ori = 34200
+13.2758 	EXP 	image: ori = 34200.0
+13.2758 	EXP 	image: size = array([0.62444444, 0.43777778])
+13.2758 	EXP 	image: image = 'Images/Duckclr.jpg'
+13.7876 	EXP 	image: autoDraw = True
+15.3556 	EXP 	New trial (rep=0, index=5): OrderedDict([('stimFile', 'Images/Tigerclr.jpg')])
+15.3659 	DATA 	Keypress: space
+15.3879 	EXP 	image: autoDraw = False
+15.3879 	EXP 	image: ori = 45540
+15.3879 	EXP 	image: ori = 45540.0
+15.3879 	EXP 	image: size = array([0.62444444, 0.43777778])
+15.3879 	EXP 	image: image = 'Images/Tigerclr.jpg'
+16.2545 	EXP 	image: autoDraw = True
+16.9231 	DATA 	Keypress: escape
+17.1119 	EXP 	window1: mouseVisible = True

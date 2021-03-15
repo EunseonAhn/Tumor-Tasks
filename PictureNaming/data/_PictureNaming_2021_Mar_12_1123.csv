@@ -1,0 +1,4 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,rotate.keys,rotate.started,rotate.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,6.07692629302619,None,space,1.5525464860256761,6.07692629302619,None,,,,,,,,,,001,,2021_Mar_12_1123,PictureNaming,2020.1.2,60.17374725298885,
+Images/Catclr.jpg,0,0,0,8,,,,,,,8.222672001982573,None,space,1.178838504012674,7.722580147034023,None,None,7.722580147034023,None,001,,2021_Mar_12_1123,PictureNaming,2020.1.2,60.17374725298885,
+Images/Pineappleclr.jpg,0,1,1,35,,,,,,,9.772511769027915,None,space,1.4335851739742793,8.939820441009942,None,None,8.939820441009942,None,001,,2021_Mar_12_1123,PictureNaming,2020.1.2,60.17374725298885,

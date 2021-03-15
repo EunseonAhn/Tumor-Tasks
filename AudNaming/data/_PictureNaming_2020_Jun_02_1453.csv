@@ -1,0 +1,4 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,instruction.started,instruction.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,text.started,text.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text1.started,text1.stopped,stimSound.started,stimSound.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,10.277104900975246,None,space,0.9366176730254665,10.277104900975246,None,,,,,,,,,,,001,,2020_Jun_02_1453,PictureNaming,2020.1.2,59.797280655909844,
+audio/Gym.wav,0,0,0,18,,,,,,,11.261686148005538,None,space,2.1677066450356506,12.278015660005622,None,12.761145314958412,None,12.760691715183203,None,001,,2020_Jun_02_1453,PictureNaming,2020.1.2,59.797280655909844,
+audio/Bow.wav,0,1,1,6,,,,,,,,,space,1.9986650199862197,14.47908549697604,None,15.049281665997114,None,15.049260795186274,None,001,,2020_Jun_02_1453,PictureNaming,2020.1.2,59.797280655909844,

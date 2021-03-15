@@ -1,0 +1,4 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,rotate.keys,rotate.rt,rotate.started,rotate.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,6.894895442004781,None,space,0.4408024519798346,6.894895442004781,None,,,,,,,,,,,001,,2021_Mar_12_1342,PictureNaming,2020.1.2,59.78076718346445,
+Images/Glassclr.jpg,0,0,0,20,,,,,,,8.194654508959502,None,space,3.7390169280115515,7.428668776003178,None,right,3.0027989780064672,7.428668776003178,None,001,,2021_Mar_12_1342,PictureNaming,2020.1.2,59.78076718346445,
+Images/Spoonclr.jpg,0,1,1,40,,,,,,,11.861686357995495,None,space,0.786912061041221,11.212746872974094,None,None,,11.212746872974094,None,001,,2021_Mar_12_1342,PictureNaming,2020.1.2,59.78076718346445,

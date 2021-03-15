@@ -1,0 +1,31 @@
+5.7258 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x133374c18>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138da9b38>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7259 	EXP 	window1: recordFrameIntervals = False
+5.8920 	EXP 	window1: recordFrameIntervals = True
+6.0750 	EXP 	window1: recordFrameIntervals = False
+6.1657 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+6.1723 	EXP 	window1: mouseVisible = False
+6.1748 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=-0.8, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+6.2418 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please identify the object in the picture as fast as you can with a single word. As soon as you think of the word, say it out loud. For example, if we show you a picture of a boat, you say "BOAT." Some images could have more than one answer. Just say the best answer.\n\n'
+6.2418 	EXP 	text: autoDraw = True
+6.8317 	EXP 	Imported images.csv as conditions, 48 conditions, 1 params
+6.8321 	EXP 	Created sequence: random, trialTypes=48, nReps=1, seed=None
+6.8325 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/Horseclr.jpg')])
+6.8879 	DATA 	Keypress: space
+6.9135 	EXP 	text: autoDraw = False
+6.9135 	EXP 	image: size = array([0.62444444, 0.43777778])
+6.9135 	EXP 	image: image = 'Images/Horseclr.jpg'
+7.4919 	EXP 	image: autoDraw = True
+8.1942 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'Images/Footballclr.jpg')])
+8.2043 	DATA 	Keypress: space
+8.2262 	EXP 	image: autoDraw = False
+8.2262 	EXP 	image: size = array([0.62444444, 0.43777778])
+8.2262 	EXP 	image: image = 'Images/Footballclr.jpg'
+9.1091 	EXP 	image: autoDraw = True
+9.8940 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'Images/Guitarclr.jpg')])
+9.9053 	DATA 	Keypress: space
+9.9263 	EXP 	image: autoDraw = False
+9.9263 	EXP 	image: size = array([0.43777778, 0.62444444])
+9.9263 	EXP 	image: image = 'Images/Guitarclr.jpg'
+10.4262 	EXP 	image: autoDraw = True
+11.2113 	DATA 	Keypress: escape
+11.3299 	EXP 	window1: mouseVisible = True

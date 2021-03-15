@@ -1,0 +1,27 @@
+6.6383 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x138bf5b70>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x137f507b8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.6383 	EXP 	window1: recordFrameIntervals = False
+6.8043 	EXP 	window1: recordFrameIntervals = True
+6.9871 	EXP 	window1: recordFrameIntervals = False
+7.1172 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+7.1262 	EXP 	window1: mouseVisible = False
+7.1434 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+7.2048 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please identify the object in the picture as fast as you can with a single word. As soon as you think of the word, say it out loud. For example, if we show you a picture of a boat, you say "BOAT." Some images could have more than one answer. Just say the best answer.\n\n'
+7.2048 	EXP 	text: autoDraw = True
+7.9636 	EXP 	Imported images.csv as conditions, 27 conditions, 1 params
+7.9640 	EXP 	Created sequence: random, trialTypes=27, nReps=1, seed=None
+7.9642 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'LITTLE')])
+7.9804 	DATA 	Keypress: space
+7.9881 	EXP 	text: autoDraw = False
+7.9881 	EXP 	text_2: text = 'LITTLE'
+8.6374 	EXP 	text_2: autoDraw = True
+9.8724 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'HIGHWAY')])
+9.8800 	DATA 	Keypress: space
+9.8873 	EXP 	text_2: autoDraw = False
+9.8873 	EXP 	text_2: text = 'HIGHWAY'
+10.8540 	EXP 	text_2: autoDraw = True
+11.2092 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'TRIP')])
+11.2141 	DATA 	Keypress: space
+11.2277 	EXP 	text_2: autoDraw = False
+11.2277 	EXP 	text_2: text = 'TRIP'
+11.7566 	DATA 	Keypress: escape
+11.8477 	EXP 	window1: mouseVisible = True

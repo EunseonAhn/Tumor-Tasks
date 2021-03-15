@@ -1,0 +1,7 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,rotate.keys,rotate.started,rotate.stopped,rotate.rt,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,6.323057422006968,None,space,0.9121204040129669,6.323057422006968,None,,,,,,,,,,,001,,2021_Mar_12_1327,PictureNaming,2020.1.2,59.87105845543001,
+Images/Goatclr.jpg,0,0,0,21,,,,,,,7.8732585640391335,None,space,1.736316310998518,7.3229499100125395,None,None,7.3229499100125395,None,,001,,2021_Mar_12_1327,PictureNaming,2020.1.2,59.87105845543001,
+Images/Guitarclr.jpg,0,1,1,23,,,,,,,9.724370357987937,None,space,1.2560247200308368,9.10716614703415,None,right,9.10716614703415,None,0.9200039739953354,001,,2021_Mar_12_1327,PictureNaming,2020.1.2,59.87105845543001,
+Images/Lightbulbclr.jpg,0,2,2,28,,,,,,,11.374476608994883,None,space,1.69103395199636,10.39215409202734,None,None,10.39215409202734,None,,001,,2021_Mar_12_1327,PictureNaming,2020.1.2,59.87105845543001,
+Images/Spoonclr.jpg,0,3,3,40,,,,,,,13.057977474003565,None,space,1.257423339993693,12.129774742992595,None,None,12.129774742992595,None,,001,,2021_Mar_12_1327,PictureNaming,2020.1.2,59.87105845543001,
+Images/Bearclr.jpg,0,4,4,1,,,,,,,14.174530193035025,None,space,2.7861381400143728,13.425040711008478,None,right,13.425040711008478,None,1.0260987890069373,001,,2021_Mar_12_1327,PictureNaming,2020.1.2,59.87105845543001,

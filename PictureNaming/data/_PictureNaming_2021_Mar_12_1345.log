@@ -1,0 +1,65 @@
+8.0792 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.0796 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x133271c88>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138ec1ba8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.0796 	EXP 	window1: recordFrameIntervals = False
+8.2101 	DATA 	Keypress: space
+8.2662 	EXP 	window1: recordFrameIntervals = True
+8.3830 	EXP 	window1: recordFrameIntervals = True
+8.4727 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+8.4796 	EXP 	window1: mouseVisible = False
+8.4817 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+8.5457 	WARNING 	t of last frame was 162.87ms (=1/6)
+8.5457 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please identify the object in the picture as fast as you can with a single word. As soon as you think of the word, say it out loud. For example, if we show you a picture of a boat, you say "BOAT." Some images could have more than one answer. Just say the best answer.\n\n'
+8.5457 	EXP 	text: autoDraw = True
+9.2017 	WARNING 	t of last frame was 22.40ms (=1/44)
+10.2011 	WARNING 	t of last frame was 21.77ms (=1/45)
+10.5345 	EXP 	Imported images.csv as conditions, 48 conditions, 1 params
+10.5349 	EXP 	Created sequence: random, trialTypes=48, nReps=1, seed=None
+10.5351 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/Catclr.jpg')])
+10.5868 	DATA 	Keypress: space
+10.5959 	WARNING 	t of last frame was 66.40ms (=1/15)
+10.5959 	EXP 	text: autoDraw = False
+10.5959 	EXP 	image: ori = 0
+10.5959 	EXP 	image: ori = 0.0
+10.5959 	EXP 	image: size = array([0.43777778, 0.62444444])
+10.5959 	EXP 	image: image = 'Images/Catclr.jpg'
+11.0799 	EXP 	image: autoDraw = True
+11.2018 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+11.9315 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'Images/Chickenclr.jpg')])
+11.9422 	DATA 	Keypress: space
+11.9643 	EXP 	image: autoDraw = False
+11.9643 	EXP 	image: ori = 0
+11.9643 	EXP 	image: ori = 0.0
+11.9643 	EXP 	image: size = array([0.43777778, 0.62444444])
+11.9643 	EXP 	image: image = 'Images/Chickenclr.jpg'
+12.6137 	EXP 	image: autoDraw = True
+12.9330 	DATA 	Keypress: left
+13.4047 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'Images/Pineappleclr.jpg')])
+13.4163 	DATA 	Keypress: space
+13.4353 	EXP 	image: autoDraw = False
+13.4353 	EXP 	image: ori = -90
+13.4353 	EXP 	image: ori = -90.0
+13.4353 	EXP 	image: size = array([0.43777778, 0.62444444])
+13.4353 	EXP 	image: image = 'Images/Pineappleclr.jpg'
+14.0640 	EXP 	image: autoDraw = True
+14.5477 	EXP 	New trial (rep=0, index=3): OrderedDict([('stimFile', 'Images/Swanclr.jpg')])
+14.5582 	DATA 	Keypress: space
+14.5814 	EXP 	image: autoDraw = False
+14.5814 	EXP 	image: ori = -90
+14.5814 	EXP 	image: ori = -90.0
+14.5814 	EXP 	image: size = array([0.62444444, 0.43777778])
+14.5814 	EXP 	image: image = 'Images/Swanclr.jpg'
+15.1969 	EXP 	image: autoDraw = True
+15.9156 	DATA 	Keypress: left
+17.3983 	EXP 	New trial (rep=0, index=4): OrderedDict([('stimFile', 'Images/Glassclr.jpg')])
+17.4086 	DATA 	Keypress: space
+17.4309 	EXP 	image: autoDraw = False
+17.4309 	EXP 	image: ori = -180
+17.4309 	EXP 	image: ori = -180.0
+17.4309 	EXP 	image: size = array([0.43777778, 0.62444444])
+17.4309 	EXP 	image: image = 'Images/Glassclr.jpg'
+17.9975 	EXP 	image: autoDraw = True
+21.4709 	DATA 	Keypress: escape
+21.6250 	EXP 	window1: mouseVisible = True

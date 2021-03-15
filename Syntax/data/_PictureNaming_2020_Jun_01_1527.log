@@ -1,0 +1,42 @@
+6.9366 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x133469ac8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138d939e8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9367 	EXP 	window1: recordFrameIntervals = False
+7.1027 	EXP 	window1: recordFrameIntervals = True
+7.2857 	EXP 	window1: recordFrameIntervals = False
+7.4178 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+7.4290 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+7.4850 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please identify the object in the picture as fast as you can with a single word. As soon as you think of the word, say it out loud. For example, if we show you a picture of a boat, you say "BOAT." Some images could have more than one answer. Just say the best answer.\n\n'
+7.4850 	EXP 	text: autoDraw = True
+8.5913 	EXP 	Imported images.csv as conditions, 48 conditions, 1 params
+8.5917 	EXP 	Created sequence: random, trialTypes=48, nReps=1, seed=None
+8.5920 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/Frogclr.jpg')])
+8.6705 	DATA 	Keypress: space
+8.6860 	EXP 	text: autoDraw = False
+8.6860 	EXP 	image: size = array([0.62444444, 0.43777778])
+8.6860 	EXP 	image: image = 'Images/Frogclr.jpg'
+9.4691 	EXP 	image: autoDraw = True
+10.1040 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'Images/Hammerclr.jpg')])
+10.1127 	DATA 	Keypress: space
+10.1192 	EXP 	image: autoDraw = False
+10.1192 	EXP 	image: size = array([0.62444444, 0.43777778])
+10.1192 	EXP 	image: image = 'Images/Hammerclr.jpg'
+10.9196 	EXP 	image: autoDraw = True
+10.9719 	DATA 	Keypress: escape
+11.0398 	EXP 	window1: mouseVisible = True
+5.2570 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13337cb38>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x138d8aa58>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.2571 	EXP 	window1: recordFrameIntervals = False
+5.4229 	EXP 	window1: recordFrameIntervals = True
+5.6064 	EXP 	window1: recordFrameIntervals = False
+5.7009 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='deg', win=Window(...), wrapWidth=15.0)
+5.7119 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+5.7725 	EXP 	text: text = 'In this task, we will show you a variety of pictures. Please identify the object in the picture as fast as you can with a single word. As soon as you think of the word, say it out loud. For example, if we show you a picture of a boat, you say "BOAT." Some images could have more than one answer. Just say the best answer.\n\n'
+5.7725 	EXP 	text: autoDraw = True
+6.4946 	EXP 	Imported images.csv as conditions, 48 conditions, 1 params
+6.4950 	EXP 	Created sequence: random, trialTypes=48, nReps=1, seed=None
+6.4952 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'Images/Glassclr.jpg')])
+6.5579 	DATA 	Keypress: space
+6.5735 	EXP 	text: autoDraw = False
+6.5735 	EXP 	image: size = array([0.43777778, 0.62444444])
+6.5735 	EXP 	image: image = 'Images/Glassclr.jpg'
+7.1398 	EXP 	image: autoDraw = True
+8.6759 	DATA 	Keypress: escape
+8.8331 	EXP 	window1: mouseVisible = True

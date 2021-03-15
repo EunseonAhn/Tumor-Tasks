@@ -1,0 +1,8 @@
+﻿stimFile,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,image.started,image.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,rotate.keys,rotate.started,rotate.stopped,rotate.rt,session,participant,date,expName,psychopyVersion,frameRate,
+,,,,,5.716509651974775,None,space,2.3689738090033643,5.716509651974775,None,,,,,,,,,,,001,,2021_Mar_12_1113,PictureNaming,2020.1.2,59.260727168332394,
+Images/Mouseclr.jpg,0,0,0,31,,,,,,,8.971031788969412,None,space,4.262808024999686,8.18258021195652,None,None,8.18258021195652,None,,001,,2021_Mar_12_1113,PictureNaming,2020.1.2,59.260727168332394,
+Images/Houseclr.jpg,0,1,1,26,,,,,,,13.034101034980267,None,None,,12.484380288980901,None,right,12.484380288980901,None,1.4008777480339631,001,,2021_Mar_12_1113,PictureNaming,2020.1.2,59.260727168332394,
+Images/Goatclr.jpg,0,2,2,21,,,,,,,14.501361412985716,None,None,,13.934748272004072,None,right,13.934748272004072,None,1.4304577620350756,001,,2021_Mar_12_1113,PictureNaming,2020.1.2,59.260727168332394,
+Images/Footballclr.jpg,0,3,3,18,,,,,,,16.034440685994923,None,None,,15.40177496499382,None,right,15.40177496499382,None,1.2354884780361317,001,,2021_Mar_12_1113,PictureNaming,2020.1.2,59.260727168332394,
+Images/Scissorsclr.jpg,0,4,4,38,,,,,,,17.301581610983703,None,None,,16.66823743196437,None,right,16.66823743196437,None,1.2809777430375107,001,,2021_Mar_12_1113,PictureNaming,2020.1.2,59.260727168332394,
+Images/Rabbitclr.jpg,0,5,5,36,,,,,,,18.668418543005828,None,None,,17.984992037003394,None,right,17.984992037003394,None,1.3482498159864917,001,,2021_Mar_12_1113,PictureNaming,2020.1.2,59.260727168332394,

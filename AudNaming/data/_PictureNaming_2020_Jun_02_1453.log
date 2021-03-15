@@ -1,0 +1,74 @@
+9.6104 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x133164b00>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x139530588>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.6104 	EXP 	window1: recordFrameIntervals = False
+9.7760 	EXP 	window1: recordFrameIntervals = True
+9.9603 	EXP 	window1: recordFrameIntervals = False
+10.1754 	EXP 	Created instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='deg', win=Window(...), wrapWidth=15.0)
+10.1903 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='deg', win=Window(...), wrapWidth=15.0)
+10.1905 	EXP 	window1: mouseVisible = False
+10.2005 	EXP 	Created text1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='text1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='deg', win=Window(...), wrapWidth=15.0)
+10.2456 	EXP 	Sound stimSound set volume 1.000
+10.2771 	EXP 	instruction: autoDraw = True
+11.2520 	DATA 	Keypress: space
+11.2617 	EXP 	instruction: autoDraw = False
+11.2617 	EXP 	text: autoDraw = True
+12.2524 	EXP 	Imported audio.csv as conditions, 32 conditions, 1 params
+12.2529 	EXP 	Created sequence: random, trialTypes=32, nReps=1, seed=None
+12.2532 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'audio/Gym.wav')])
+12.2780 	EXP 	text: autoDraw = False
+12.2780 	EXP 	text1: text = ''
+12.7607 	EXP 	Sound stimSound started
+12.7611 	EXP 	text1: autoDraw = True
+13.9829 	EXP 	Sound stimSound reached end of file
+14.4630 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'audio/Bow.wav')])
+14.4705 	DATA 	Keypress: space
+14.4791 	EXP 	text1: autoDraw = False
+14.4791 	EXP 	text1: text = ''
+15.0493 	EXP 	Sound stimSound started
+15.0493 	EXP 	text1: autoDraw = True
+16.3282 	EXP 	Sound stimSound reached end of file
+16.4842 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'audio/Duck.wav')])
+16.4937 	DATA 	Keypress: space
+16.5162 	EXP 	text1: autoDraw = False
+16.5162 	EXP 	text1: text = ''
+17.3115 	EXP 	Sound stimSound started
+17.3125 	EXP 	text1: autoDraw = True
+18.5960 	EXP 	Sound stimSound reached end of file
+18.8012 	DATA 	Keypress: escape
+19.0412 	EXP 	window1: mouseVisible = True
+6.5909 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1339c1b00>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13943c550>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.5909 	EXP 	window1: recordFrameIntervals = False
+6.7572 	EXP 	window1: recordFrameIntervals = True
+6.9406 	EXP 	window1: recordFrameIntervals = False
+7.0819 	EXP 	Created instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='deg', win=Window(...), wrapWidth=15.0)
+7.0984 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='deg', win=Window(...), wrapWidth=15.0)
+7.0986 	EXP 	window1: mouseVisible = False
+7.1097 	EXP 	Created text1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='text1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='deg', win=Window(...), wrapWidth=15.0)
+7.1520 	EXP 	Sound stimSound set volume 1.000
+7.1758 	EXP 	instruction: autoDraw = True
+8.1093 	DATA 	Keypress: space
+8.1239 	EXP 	instruction: autoDraw = False
+8.1239 	EXP 	text: autoDraw = True
+9.0987 	EXP 	Imported audio.csv as conditions, 32 conditions, 1 params
+9.0991 	EXP 	Created sequence: random, trialTypes=32, nReps=1, seed=None
+9.0994 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'audio/Cow.wav')])
+9.1242 	EXP 	text: autoDraw = False
+9.1242 	EXP 	text1: text = ''
+9.6744 	EXP 	Sound stimSound started
+9.6743 	EXP 	text1: autoDraw = True
+10.9414 	EXP 	Sound stimSound reached end of file
+11.2770 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'audio/Key.wav')])
+11.2903 	DATA 	Keypress: space
+11.3078 	EXP 	text1: autoDraw = False
+11.3078 	EXP 	text1: text = ''
+11.9486 	EXP 	Sound stimSound started
+11.9486 	EXP 	text1: autoDraw = True
+13.1252 	EXP 	Sound stimSound reached end of file
+13.2277 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'audio/Gym.wav')])
+13.2335 	DATA 	Keypress: space
+13.2421 	EXP 	text1: autoDraw = False
+13.2421 	EXP 	text1: text = ''
+14.0635 	EXP 	Sound stimSound started
+14.0636 	EXP 	text1: autoDraw = True
+15.2928 	EXP 	Sound stimSound reached end of file
+15.4333 	DATA 	Keypress: escape
+15.9170 	EXP 	window1: mouseVisible = True
