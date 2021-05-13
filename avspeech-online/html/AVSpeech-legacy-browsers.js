@@ -2102,6 +2102,7 @@ function instructionsRoutineEnd(trials) {
 }
 
 
+var noise;
 var movie_stimClock;
 var movie_stim;
 var stimDisplayComponents;
@@ -2126,8 +2127,10 @@ function stimDisplayRoutineBegin(trials) {
     }
     
     if (trialList[stim_idx]['Condition']%2 == 1){
+        noise = 1;
         noiseFile = "audio_clipped_mp3/pink_noise.mp3";
     } else {
+        noise = 0;
         noiseFile = "audio_clipped_mp3/no_noise.mp3";
     }
     
@@ -2152,6 +2155,7 @@ function stimDisplayRoutineBegin(trials) {
     */
     psychoJS.experiment.addData("audioFileIdx", audioFileIdx);
     psychoJS.experiment.addData("visualFileIdx", visualFileIdx);
+    psychoJS.experiment.addData("noise", noise);
     movie_stimClock = new util.Clock();
     movie_stim = new visual.MovieStim({
       win: psychoJS.window,
@@ -2284,7 +2288,7 @@ function stimDisplayRoutineEnd(trials) {
     });
     thisExp.addData("audioFileIdx", audioFileIdx);
     thisExp.addData("visualFileIdx", visualFileIdx);
-    
+    thisExp.addData('noise', noise);
     sound_stim.stop();  // ensure sound has stopped at end of routine
     noise_stim.stop();  // ensure sound has stopped at end of routine
     movie_stim.stop();

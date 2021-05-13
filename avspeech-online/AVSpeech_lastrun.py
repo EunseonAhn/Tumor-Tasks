@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.2),
-    on Tue Dec 15 17:30:43 2020
+    on Thu May 13 12:03:09 2021
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1595,8 +1595,10 @@ for thisStimTrial in stimTrials:
         visualFile = stim['AudNames'][visualFileIdx]
     
     if trialList[stim_idx]['Condition'] % 2 == 1:
+        noise = 1
         noiseFile = 'audio_clipped_ogg/pink_noise.ogg'
     else:
+        noise = 0
         noiseFile = 'audio_clipped_ogg/no_noise.ogg'
         
     # Add extensions
@@ -1718,6 +1720,7 @@ for thisStimTrial in stimTrials:
             thisComponent.setAutoDraw(False)
     thisExp.addData('audioFileIdx', audioFileIdx)
     thisExp.addData('visualFileIdx', visualFileIdx)
+    thisExp.addData('noise', noise)
     stimTrials.addData('movie_stim.started', movie_stim.tStartRefresh)
     stimTrials.addData('movie_stim.stopped', movie_stim.tStopRefresh)
     sound_stim.stop()  # ensure sound has stopped at end of routine
